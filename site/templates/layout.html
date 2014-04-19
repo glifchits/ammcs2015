@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+  </head>
+  <body>
+    <header>
+      <h1>International Conference: AMMCS-2013</h1>
+      <h2>Waterloo, Ontario, Canada, August 26-30, 2013</h2>
+    </header>
+    <ul id="nav">
+      {% for page in pages %}
+      <li>
+        <a href="/{{ pages[page] }}">{{ page }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+    <main>
+      {% block body %}
+      {% endblock %}
+    </main>
+  </body>
+</html>
