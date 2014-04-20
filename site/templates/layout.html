@@ -9,33 +9,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
+
     <header>
-      <h1>International Conference: AMMCS-CAIMS 2015</h1>
-      <h2>Waterloo, Ontario, Canada, August 26-30, 2015</h2>
+      <div class="row">
+        <div class="ammcs-title col-md-6 col-xs-8 text-right">
+          <h2>International Conference</h2>
+          <h1>AMMCS-CAIMS 2015</h1>
+        </div>
+        <div class="ammcs-info col-md-6 col-xs-4">
+          <h1 class="small">Waterloo, Ontario, Canada</h1>
+          <h1 class="small">August 26-30, 2015</h1>
+        </div>
+      </div>
     </header>
+
     <nav class="navbar navbar-default" role="navigation">
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
             <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+            <span>See pages</span>
           </button>
-          <a class="navbar-brand" href="#">Navigation</a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            {% for page in pages %}
+            {% for page, route in pages.items() %}
             <li>
-              <a href="/{{ pages[page] }}">{{ page }}</a>
+              <a href="/{{ route }}">{{ page }}</a>
             </li>
             {% endfor %}
           </ul>
         </div>
       </div>
     </nav>
-    <main>
+
+    <main class="container">
       {% block body %}
       {% endblock %}
     </main>
