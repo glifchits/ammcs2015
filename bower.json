@@ -14,6 +14,7 @@
     "tests"
   ],
   "devDependencies": {
-    "bootstrap": "~3.1.1"
+    "bootstrap": "~3.1.1",
+    "modularized-normalize-scss": "~3.0.1"
   }
 }
