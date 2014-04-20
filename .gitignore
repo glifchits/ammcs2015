@@ -1,2 +1,2 @@
 vendor
-.py[co]
+*.py[co]

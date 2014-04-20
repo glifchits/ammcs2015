@@ -1,11 +1,22 @@
-HOME = 'Home'
-SPECIAL_SESSIONS = 'Special Sessions'
-CONTRIBUTED_SESSIONS = 'Contributed Sessions'
-SUBMIT_ABSTRACT = 'Submit Abstract'
+routes = (
+    ('Home', 'index'),
+    ('Special Sessions', 'special-sessions'),
+    ('Contributed Sessions', 'contributed-sessions'),
+    ('Submit Abstract', 'submit-abstract'),
+    ('Deadlines & Payment', 'deadlines-payment'),
+    ('Plenary Speakers', 'plenary-speakers'),
+    ('Student Prize & Support', 'student-prize-support'),
+    ('Program', 'conference-program'),
+    ('Proceedings', 'proceedings'),
+    ('Conference Flyer', 'conference-flyer'),
+    ('Travel & Local Info', 'travel-local-info'),
+    ('Venue & Accommodation', 'venue-accommodation'),
+    ('Organization & History', 'organization-history'),
+    ('Contact Us', 'contact-us')
+)
 
-ROUTES = {
-    HOME: 'index',
-    SPECIAL_SESSIONS: 'special-sessions',
-    CONTRIBUTED_SESSIONS: 'contributed-sessions',
-    SUBMIT_ABSTRACT: 'submit-abstract'
-}
+# exports the ROUTES OrderedDict
+from collections import OrderedDict
+ROUTES = OrderedDict()
+for k, v in routes:
+    ROUTES[k] = v
