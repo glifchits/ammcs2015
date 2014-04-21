@@ -1,18 +1,16 @@
 from flask import Flask, render_template, abort, redirect
-from config_pages import *
+from config_pages import ROUTES
 app = Flask(__name__)
 
 HTML = '.html'
 
 @app.route('/')
 def main():
-    print ROUTES.items()
     return render_template('index.html', pages=ROUTES)
 
 @app.route('/home/')
 @app.route('/index/')
 def index():
-    print 'routed to index'
     return redirect('/')
 
 @app.route('/<string:route>/')
@@ -23,5 +21,5 @@ def routing(route):
     else:
         abort(404)
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     app.run(debug=True)
