@@ -5,9 +5,19 @@ header
     h1, h2
       margin: 0
 
-.navbar
-  border: none
-  margin-bottom: 0
-  li > a
+nav
+  margin-top: 10px
+  ul
+    list-style: none
     padding: 0
-    margin: 5px 15px
+  li
+    a
+      padding: 8px 8px
+      display: inline-block
+      width: 100%
+      &:hover
+        text-decoration: none
+      &.active
+        border-left: 4px solid steelblue
+    &:hover
+      background-color: #eee

@@ -23,29 +23,30 @@
       </div>
     </header>
 
-    <nav class="navbar navbar-default" role="navigation">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span>See pages</span>
-          </button>
-        </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            {% for page, route in pages.items() %}
-            <li>
-              <a href="/{{ route }}">{{ page }}</a>
-            </li>
-            {% endfor %}
-          </ul>
-        </div>
+    <div class="row">
+      
+      <div class="col-md-2">
+        <nav role="navigation">
+          <div class="container-fluid">
+            <ul>
+              {% set active_page = active_page|default('index') -%}
+              {% for page, route in pages.items() %}
+              <li>
+                <a href="/{{ route }}"{% if route == active_page %} class="active"{% endif %}>{{ page }}</a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </nav>
       </div>
-    </nav>
 
-    <main class="container">
-      {% block body %}
-      {% endblock %}
-    </main>
+      <div class="col-md-8">
+        <main class="container-fluid">
+          {% block body %}
+          {% endblock %}
+        </main>
+      </div>
+
+    </div>
   </body>
 </html>
