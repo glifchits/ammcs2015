@@ -31,8 +31,8 @@
             <ul>
               {% set active_page = active_page|default('index') -%}
               {% for page, route in pages.items() %}
-              <li>
-                <a href="/{{ route }}"{% if route == active_page %} class="active"{% endif %}>{{ page }}</a>
+              <li {% if route == active_page %} class="active"{% endif %}>
+                <a href="/{{ route }}">{{ page }}</a>
               </li>
               {% endfor %}
             </ul>
