@@ -1,15 +1,34 @@
+*
+  box-sizing: border-box
+
+@import 'normalize/normalize'
+
+div.container
+  margin: 0 auto
+  max-width: 1000px
+
+nav, main
+  position: relative
+  float: left
+
+nav
+  width: 220px
+  padding-right: 20px
+main
+  width: 670px
+
 header
   padding: 18px
   background-image: url('/static/images/bin.jpg')
   background-repeat: no-repeat
   background-size: cover
+  text-align: center
   color: white
   .ammcs-title
     h1, h2
       margin: 0
 
 nav
-  margin-top: 10px
   ul
     list-style: none
     padding: 0
@@ -21,14 +40,12 @@ nav
       padding: 8px 8px
       display: inline-block
       width: 100%
-      &:hover
-        text-decoration: none
-        color: steelblue
+      text-decoration: none
+      color: steelblue
     &:hover
       border-color: steelblue
       background-color: #eee
     &.active
-      border-color: steelblue
       background-color: lighten(steelblue, 20%)
       a
         color: white

@@ -2,51 +2,38 @@
 <html>
   <head>
     <title>AMMCS-CAIMS 2015</title>
-    <link href="/static/styles/bootstrap.css" rel="stylesheet">
     <link href="/static/styles/styles.css" rel="stylesheet">
-    <script src="/static/javascript/jquery.js" type="text/javascript"></script>
-    <script src="/static/javascript/bootstrap.js" type="text/javascript"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
 
     <header>
-      <div class="row">
-        <div class="ammcs-title col-md-6 col-xs-8 text-right">
-          <h2>International Conference</h2>
-          <h1>AMMCS-CAIMS 2015</h1>
-        </div>
-        <div class="ammcs-info col-md-6 col-xs-4">
-          <h1 class="small">Waterloo, Ontario, Canada</h1>
-          <h1 class="small">August 26-30, 2015</h1>
-        </div>
+      <div class="ammcs-title">
+        <h2>International Conference</h2>
+        <h1>AMMCS-CAIMS 2015</h1>
+      </div>
+      <div class="ammcs-info">
+        <span>Waterloo, Ontario, Canada</span> &#8226; <span>August 26-30, 2015</span>
       </div>
     </header>
 
-    <div class="row">
-      
-      <div class="col-md-2 col-sm-3">
-        <nav role="navigation">
-          <div class="container-fluid">
-            <ul>
-              {% set active_page = active_page|default('index') -%}
-              {% for page, route in pages.items() %}
-              <li {% if route == active_page %} class="active"{% endif %}>
-                <a href="/{{ route }}">{{ page }}</a>
-              </li>
-              {% endfor %}
-            </ul>
-          </div>
-        </nav>
-      </div>
+    <div class="container">
+      <nav role="navigation">
+        <ul>
+          {% set active_page = active_page|default('index') -%}
+          {% for page, route in pages.items() %}
+          <li {% if route == active_page %} class="active"{% endif %}>
+            <a href="/{{ route }}">{{ page }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </nav>
 
-      <div class="col-md-8 col-sm-7">
-        <main class="container-fluid">
-          {% block body %}
-          {% endblock %}
-        </main>
-      </div>
-
+      <main>
+        {% block body %}
+        {% endblock %}
+      </main>
     </div>
+
   </body>
 </html>
