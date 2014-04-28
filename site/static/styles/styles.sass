@@ -1,6 +1,9 @@
 header
   padding: 18px
-  background-color: steelblue
+  background-image: url('/static/images/bin.jpg')
+  background-repeat: no-repeat
+  background-size: cover
+  color: white
   .ammcs-title
     h1, h2
       margin: 0
@@ -11,8 +14,8 @@ nav
     list-style: none
     padding: 0
   li
+    width: 100%
     display: inline-block
-    width: 190px
     border-left: 4px solid transparent
     a
       padding: 8px 8px
@@ -23,7 +26,9 @@ nav
         color: steelblue
     &:hover
       border-color: steelblue
-      //background-color: #eee
-    &.active
       background-color: #eee
+    &.active
       border-color: steelblue
+      background-color: lighten(steelblue, 20%)
+      a
+        color: white
