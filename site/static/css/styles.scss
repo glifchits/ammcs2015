@@ -1,0 +1,43 @@
+.header {
+  padding-bottom: 3em;
+  border-bottom: 1px solid #ccc;
+ .ammcs-logo {
+    background: url('/static/images/ammcs-caims-logo.png') no-repeat;
+    background-size: contain;
+    background-position: center right;
+  }
+  .ammcs-title {
+    text-align: left;
+    h2 {
+      color: steelblue;
+    }
+  }
+  h1, h2, span {
+    padding: 0 5px;
+    margin: 0;
+  }
+}
+
+#menu {
+  .pure-menu-heading {
+    background: transparent;
+    color: steelblue;
+    &:hover {
+      color: lighten(steelblue, 20%);
+    }
+  }
+  ul {
+    li {
+      &.pure-menu-selected {
+        background-color: steelblue;
+      }
+      a {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+.content {
+  padding-top: 2em;
+}
