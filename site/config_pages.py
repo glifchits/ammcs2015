@@ -15,8 +15,17 @@ routes = (
     ('Contact Us', 'contact-us')
 )
 
+sessions = (
+    ('sgt', 'Structured Graph Theory', 'Chinh Hoang and Kathie Cameron (WLU)'),
+    ('me', 'Mathematical Epidemiology', 'Connel McCluskey'),
+)
+
 # exports the ROUTES OrderedDict
 from collections import OrderedDict
 ROUTES = OrderedDict()
 for k, v in routes:
     ROUTES[k] = v
+
+SESSIONS = OrderedDict()
+for code, title, orgs in sessions:
+    SESSIONS[code] = (title, orgs)

@@ -31,6 +31,15 @@
     .content a:hover {
       color: steelblue; }
 
+.special-session h1 {
+  font-size: 1.4em;
+  margin: 0 0 1em 0; }
+.special-session h2 {
+  font-size: 2em;
+  margin: 0; }
+.special-session h3 {
+  margin: 0.7em 0; }
+
 .supporters .logo {
   height: 100px;
   text-align: center; }
