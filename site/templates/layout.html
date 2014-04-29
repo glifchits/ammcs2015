@@ -23,10 +23,11 @@
 
       <div id="menu">
         <div class="pure-menu pure-menu-open">
+          <a class="pure-menu-heading" href="/">AMMCS-CAIMS 2015</a>
           <ul>
             {% set active_page = active_page|default('index') -%}
             {% for page, route in pages.items() %}
-            <li {% if route == active_page %} class="active"{% endif %}>
+            <li {% if route == active_page %} class="pure-menu-selected"{% endif %}>
               <a href="/{{ route }}">{{ page }}</a>
             </li>
             {% endfor %}
