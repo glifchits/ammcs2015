@@ -1,6 +1,6 @@
 from flask import Flask, render_template, abort, redirect
 from config_pages import ROUTES
-app = Flask(__name__)
+app = Flask(__name__, template_folder="pages")
 
 HTML = '.html'
 
