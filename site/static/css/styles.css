@@ -25,3 +25,8 @@
 
 .content {
   padding-top: 2em; }
+  .content a {
+    color: #38678f;
+    text-decoration: none; }
+    .content a:hover {
+      color: steelblue; }

@@ -40,4 +40,11 @@
 
 .content {
   padding-top: 2em;
+  a {
+    color: darken(steelblue, 10%);
+    text-decoration: none;
+    &:hover {
+      color: steelblue;
+    }
+  }
 }
