@@ -1,0 +1,14 @@
+.header h1, .header h2 {
+  padding: 5px;
+  margin: 0;
+}
+.header .ammcs-title h2 {
+  color: steelblue;
+}
+.header {
+  padding-bottom: 3em;
+  border-bottom: 1px solid #ccc;
+}
+.content {
+  padding-top: 2em;
+}
