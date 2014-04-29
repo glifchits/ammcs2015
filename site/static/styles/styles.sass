@@ -1,4 +1,6 @@
 *
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
   box-sizing: border-box
 
 @import 'normalize/normalize'
@@ -18,15 +20,19 @@ main
   width: 670px
 
 header
-  padding: 18px
-  background-image: url('/static/images/bin.jpg')
-  background-repeat: no-repeat
-  background-size: cover
-  text-align: center
-  color: white
+  display: block
+  height: 100px
+  div
+    margin: 10px
+  .ammcs-logo
+    background: url('/static/images/ammcs-caims-logo.png') no-repeat
+    background-size: contain
+    background-position: center center
+    height: 80px
   .ammcs-title
-    h1, h2
+    h1, h2, span
       margin: 0
+      padding: 0
 
 nav
   ul
@@ -36,8 +42,9 @@ nav
     width: 100%
     display: inline-block
     border-left: 4px solid transparent
+    font-size: 14px
     a
-      padding: 8px 8px
+      padding: 6px
       display: inline-block
       width: 100%
       text-decoration: none
