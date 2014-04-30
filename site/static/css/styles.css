@@ -30,6 +30,8 @@
     text-decoration: none; }
     .content a:hover {
       color: steelblue; }
+  .content table td {
+    padding: 2px 4px; }
 
 .special-session h1 {
   font-size: 1.4em;
