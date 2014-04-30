@@ -1,8 +1,9 @@
 import os
 
 from flask import Flask, render_template, abort, redirect
-from config_pages import ROUTES, SESSIONS
-app = Flask(__name__, template_folder="pages")
+from config_pages import PAGE_FOLDER, PAGES, ROUTES, SESSIONS
+
+app = Flask(__name__, template_folder=PAGE_FOLDER)
 
 HTML = '.html'
 
@@ -15,22 +16,16 @@ def main():
 def index():
     return redirect('/')
 
-@app.route('/<string:route>/')
-def root_routing(route):
-    if route in ROUTES.values():
-        template_name = route.strip() + HTML
-        print 'rendering', template_name
-        return render_template(template_name, pages=ROUTES, sessions=SESSIONS)
+@app.route('/<path:route>/')
+def routing(route):
+    if route in PAGES:
+        return render_template(route+HTML,
+            pages = ROUTES,
+            sessions = SESSIONS
+        )
     else:
         abort(404)
 
-@app.route('/special-sessions/<string:session>/')
-def special_sessions(session):
-    if session in SESSIONS.keys():
-        template_name = 'special-sessions/' + session.strip() + HTML
-        return render_template(template_name, pages=ROUTES, sessions=SESSIONS)
-    else:
-        abort(404)
 
 if __name__ == '__main__':
     app.run(debug=True)

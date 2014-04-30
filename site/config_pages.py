@@ -1,3 +1,5 @@
+PAGE_FOLDER = 'pages'
+
 routes = (
     ('Home', 'index'),
     ('Special Sessions', 'special-sessions'),
@@ -20,6 +22,16 @@ sessions = (
     ('sgt', 'Structured Graph Theory', 'Chinh Hoang and Kathie Cameron (WLU)'),
     ('me', 'Mathematical Epidemiology', 'Connel McCluskey'),
 )
+
+# determines the set of accessible pages
+import os
+PAGES = set()
+for root, directory, files in os.walk(PAGE_FOLDER):
+    for page in files:
+        if page.startswith('_'): continue
+        fullpath = os.path.join(root, page)[len(PAGE_FOLDER)+1:]
+        namedpath = os.path.splitext(fullpath)[0]
+        PAGES.add(namedpath)
 
 # exports the ROUTES OrderedDict
 from collections import OrderedDict
