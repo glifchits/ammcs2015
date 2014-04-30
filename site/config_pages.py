@@ -6,6 +6,7 @@ routes = (
     ('Deadlines & Payment', 'deadlines-payment'),
     ('Plenary Speakers', 'plenary-speakers'),
     ('Student Prize & Support', 'student-prize-support'),
+    ('Travel Grants & Prizes', 'scholarships-grants-prizes'),
     ('Program', 'conference-program'),
     ('Proceedings', 'proceedings'),
     ('Conference Flyer', 'conference-flyer'),
