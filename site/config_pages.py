@@ -2,7 +2,7 @@ routes = (
     ('Home', 'index'),
     ('Special Sessions', 'special-sessions'),
     ('Contributed Sessions', 'contributed-sessions'),
-    ('Submit Abstract', 'submit-abstract'),
+    ('Submit Abstracts', 'submit-abstracts'),
     ('Deadlines & Payment', 'deadlines-payment'),
     ('Plenary Speakers', 'plenary-speakers'),
     ('Student Prize & Support', 'student-prize-support'),
