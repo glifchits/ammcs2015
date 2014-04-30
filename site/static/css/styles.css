@@ -25,6 +25,10 @@
 
 .content {
   padding-top: 2em; }
+  .content h1 {
+    color: steelblue;
+    padding-bottom: 0.6em;
+    border-bottom: 1px solid #dde; }
   .content a {
     color: #38678f;
     text-decoration: none; }
@@ -37,13 +41,14 @@
     font-size: 20px;
     font-weight: bold; }
 
-.special-session h1 {
+.special-session h1, .plenary-speaker h1 {
   font-size: 1.4em;
   margin: 0 0 1em 0; }
-.special-session h2 {
+.special-session h2, .plenary-speaker h2 {
   font-size: 2em;
-  margin: 0; }
-.special-session h3 {
+  margin: 0;
+  line-height: 1em; }
+.special-session h3, .plenary-speaker h3 {
   margin: 0.7em 0; }
 
 .supporters .logo {

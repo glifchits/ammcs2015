@@ -40,6 +40,11 @@
 
 .content {
   padding-top: 2em;
+  h1 {
+    color: steelblue;
+    padding-bottom: 0.6em;
+    border-bottom: 1px solid #dde;
+  }
   a {
     color: darken(steelblue, 10%);
     text-decoration: none;
@@ -59,7 +64,7 @@
   }
 }
 
-.special-session {
+.special-session, .plenary-speaker {
   h1 { // this is the type and code of the session
     font-size: 1.4em;
     margin: 0 0 1em 0;
@@ -67,6 +72,7 @@
   h2 { // this is the title of the session
     font-size: 2em;
     margin: 0;
+    line-height: 1em;
   }
   h3 { // this is the organizer's name
     margin: 0.7em 0;
