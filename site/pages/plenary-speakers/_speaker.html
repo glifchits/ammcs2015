@@ -1,0 +1,11 @@
+{% extends '_layout.html' %}
+{% set active_page = 'plenary-speakers' %}
+{% block body %}
+
+<h1>{{ speaker_address }}</h1>
+<div class='plenary-speaker'>
+  {% block plenaryspeaker %}
+  {% endblock %}
+</div>
+
+{% endblock %}
