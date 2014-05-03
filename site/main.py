@@ -11,11 +11,7 @@ HTML = '.html'
 def main():
     return render_template('index.html', pages=ROUTES)
 
-@app.route('/home/')
-@app.route('/index/')
-def index():
-    return redirect('/')
-
+@app.route('/<path:route>')
 @app.route('/<path:route>/')
 def routing(route):
     if route in PAGES:

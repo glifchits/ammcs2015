@@ -1,7 +1,7 @@
 PAGE_FOLDER = 'pages'
 
 routes = (
-    ('Home', 'index'),
+    ('Home', ''),
     ('Special Sessions', 'special-sessions'),
     ('Contributed Sessions', 'contributed-sessions'),
     ('Submit Abstracts', 'submit-abstracts'),
