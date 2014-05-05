@@ -28,7 +28,7 @@
             {% set active_page = active_page|default('index') -%}
             {% for page, route in pages.items() %}
             <li {% if route == active_page %} class="pure-menu-selected"{% endif %}>
-              <a href="/{{ route }}/">{{ page }}</a>
+              <a href="/{{ route }}{% if route %}/{% endif %}">{{ page }}</a>
             </li>
             {% endfor %}
           </ul>
