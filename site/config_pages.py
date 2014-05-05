@@ -14,7 +14,7 @@ routes = (
     ('Travel & Local Info', 'travel-local-info'),
     ('Venue & Accommodation', 'venue-accommodation'),
     ('Organization & History', 'organization-history'),
-    ('Contact Us', 'contact-us')
+#    ('Contact Us', 'contact-us')
 )
 
 sessions = (
