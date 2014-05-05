@@ -1,6 +1,6 @@
 from flask_frozen import Freezer
 from main import app, PAGES
-import shutil
+import shutil, sys
 os = shutil.os
 
 freezer = Freezer(app)
@@ -13,7 +13,16 @@ def routing():
 if __name__ == "__main__":
     if os.path.exists('build'):
         shutil.rmtree('build')
-    freezer.freeze()
+    try:
+        freezer.freeze()
+        print "static pages compiled to /build"
+    except Exception as e:
+        print "did not freeze pages"
+        raise
+
+    if '--serve' not in sys.argv and '-s' not in sys.argv:
+        sys.exit(0)
+
     oldcwd = os.getcwd()
     os.chdir('build')
     import SimpleHTTPServer, SocketServer
