@@ -75,6 +75,11 @@ footer {
   bottom: 0;
 }
 
+hr {
+  border: none;
+  border-top: 1px solid $border-colour;
+}
+
 .special-session, .plenary-speaker {
   h1 { // this is the type and code of the session
     font-size: 1.4em;
