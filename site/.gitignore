@@ -3,3 +3,4 @@ build
 *.py[co]
 .sass-cache
 node_modules/
+static/css
