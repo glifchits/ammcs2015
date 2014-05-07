@@ -1,0 +1,16 @@
+{
+  "name": "ammcs-caims2015",
+  "version": "0.0.1",
+  "description": "website: ammcs-caims2015.wlu.ca",
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-contrib-sass": "^0.7.3",
+    "grunt-contrib-watch": "^0.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": ".git",
+  "author": "George Lifchits (george.lifchits@gmail.com)",
+  "license": "ISC"
+}
