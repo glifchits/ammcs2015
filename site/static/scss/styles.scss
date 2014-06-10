@@ -1,5 +1,6 @@
 $border-colour: #ccc;
 $ammcs-blue: #303093;
+$body-text: black;
 
 .header {
   padding-bottom: 3em;
@@ -66,6 +67,7 @@ body {
 
 .content {
   padding: 2em 1em;
+  color: $body-text;
   h1 {
     color: $ammcs-blue;
     padding-bottom: 0.6em;
