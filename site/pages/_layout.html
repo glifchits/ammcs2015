@@ -32,6 +32,7 @@
               <a href="/{{ route }}{% if route %}/{% endif %}">{{ page }}</a>
             </li>
             {% endfor %}
+
             <div id="google_translate_element"></div>
           </ul>
         </div>
@@ -54,6 +55,21 @@
       </div>
 
       <footer>
+        <span class='search-warning'>Search the AMMCS-CAIMS 2015 website in the box below</span>
+        <script>
+          (function() {
+            var cx = '017430423960306350711:_naeozrh9_q';
+            var gcse = document.createElement('script');
+            gcse.type = 'text/javascript';
+            gcse.async = true;
+            gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                '//www.google.com/cse/cse.js?cx=' + cx;
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(gcse, s);
+          })();
+        </script>
+        <gcse:search></gcse:search>
+
         &copy; AMMCS-CAIMS 2015. Contact us at <a href='mailto:ammcs-caims2015@wlu.ca'>ammcs-caims2015@wlu.ca</a>
       </footer>
     </div>
