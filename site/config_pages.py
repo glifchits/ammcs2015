@@ -13,7 +13,7 @@ routes = (
     ('Conference Flyer', 'conference-flyer'),
     ('Travel & Local Info', 'travel-local-info'),
     ('Venue & Accommodation', 'venue-accommodation'),
-    ('Organization & History', 'organization-history'),
+    ('Organization', 'organization'),
 #    ('Contact Us', 'contact-us')
 )
 
