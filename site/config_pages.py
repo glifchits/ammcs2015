@@ -22,6 +22,9 @@ sessions = (
     ('me', 'Mathematical Epidemiology', 'Connel McCluskey'),
 )
 
+# this line removes the table contents
+sessions = ()
+
 # determines the set of accessible pages
 import os
 PAGES = set()
