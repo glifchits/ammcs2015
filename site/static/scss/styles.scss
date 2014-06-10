@@ -58,6 +58,9 @@ a {
 
 body {
   font-family: 'Lato', sans-serif;
+  h1 {
+    font-weight: bold;
+  }
 }
 
 .content {
@@ -66,7 +69,6 @@ body {
     color: $ammcs-blue;
     padding-bottom: 0.6em;
     border-bottom: 1px solid $border-colour;
-    font-family: 'Open Sans', sans-serif;
   }
   table {
     td {
