@@ -1,4 +1,5 @@
 $border-colour: #ccc;
+$ammcs-blue: #303093;
 
 .header {
   padding-bottom: 3em;
@@ -15,7 +16,7 @@ $border-colour: #ccc;
     padding-left: 10px;
     font-family: 'Lato', sans-serif;
     h1 {
-      color: #303093;
+      color: $ammcs-blue;
       font-weight: bold;
       font-style: italic;
       font-size: 40px;
@@ -33,15 +34,15 @@ $border-colour: #ccc;
 #menu {
   .pure-menu-heading {
     background: transparent;
-    color: steelblue;
+    color: $ammcs-blue;
     &:hover {
-      color: lighten(steelblue, 20%);
+      color: lighten($ammcs-blue, 20%);
     }
   }
   ul {
     li {
       &.pure-menu-selected {
-        background-color: steelblue;
+        background-color: $ammcs-blue;
       }
       a {
         font-size: 14px;
@@ -65,7 +66,7 @@ body {
 .content {
   padding: 2em 1em;
   h1 {
-    color: steelblue;
+    color: $ammcs-blue;
     padding-bottom: 0.6em;
     border-bottom: 1px solid $border-colour;
     font-family: 'Open Sans', sans-serif;
