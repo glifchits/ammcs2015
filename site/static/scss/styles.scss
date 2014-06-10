@@ -34,10 +34,7 @@ $ammcs-blue: #303093;
 #menu {
   .pure-menu-heading {
     background: transparent;
-    color: $ammcs-blue;
-    &:hover {
-      color: lighten($ammcs-blue, 20%);
-    }
+    color: lighten($ammcs-blue, 20%);
   }
   ul {
     li {
