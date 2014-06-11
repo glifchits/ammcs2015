@@ -1,0 +1,19 @@
+#menu {
+  .pure-menu-heading {
+    background: transparent;
+    color: lighten($ammcs-blue, 20%);
+  }
+  ul {
+    li {
+      &.pure-menu-selected {
+        background-color: $ammcs-blue;
+      }
+      a {
+        font-size: 14px;
+      }
+    }
+  }
+  #google_translate_element {
+    text-align: center;
+  }
+}
