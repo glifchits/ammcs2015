@@ -32,6 +32,10 @@
               <a href="/{{ route }}{% if route %}/{% endif %}">{{ page }}</a>
             </li>
             {% endfor %}
+            
+            <div id='google_search'>
+              <gcse:searchbox-only resultsUrl='/search-results'></gcse:searchbox-only>
+            </div>
 
             <div id="google_translate_element"></div>
           </ul>
@@ -55,22 +59,6 @@
       </div>
 
       <footer>
-        <span class='search-warning'>Search the AMMCS-CAIMS 2015 website in the box below</span>
-        <script>
-          (function() {
-            var cx = '017430423960306350711:_naeozrh9_q';
-            var gcse = document.createElement('script');
-            gcse.type = 'text/javascript';
-            gcse.async = true;
-            gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-                '//www.google.com/cse/cse.js?cx=' + cx;
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(gcse, s);
-          })();
-        </script>
-        <gcse:search></gcse:search>
-
-        <span>
           &copy;
           <a href='/'>2015 AMMCS-CAIMS Congress</a>
           |
@@ -81,10 +69,19 @@
       </footer>
     </div>
 
-    <div id="google_translate_element"></div><script type="text/javascript">
+    <script type="text/javascript">
       function googleTranslateElementInit() {
         new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
       }
+    </script>
+    <script>
+      (function() {
+        var cx = '017430423960306350711:_naeozrh9_q';
+        var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
+        gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + 
+          '//www.google.com/cse/cse.js?cx=' + cx;
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+      })();
     </script>
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <script src="/static/js/ui.js" type="text/javascript"></script>
