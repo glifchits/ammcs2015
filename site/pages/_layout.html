@@ -1,4 +1,5 @@
 <!doctype html>
+
 <html lang="en">
   <head>
     <title>AMMCS-CAIMS 2015</title>
@@ -32,11 +33,14 @@
               <a href="/{{ route }}{% if route %}/{% endif %}">{{ page }}</a>
             </li>
             {% endfor %}
-            
-            <div id='google_search'>
-              <div class='gcse-searchbox-only' data-resultsUrl='/search-results'></div>
-            </div>
 
+            <form id="searchbox_017430423960306350711:_naeozrh9_q" action="/search-results" class="googlesearch">
+              <input value="017430423960306350711:_naeozrh9_q" name="cx" type="hidden"/>
+              <input value="FORID:11" name="cof" type="hidden"/>
+              <input class="googlesearch" id="q" style="" name="q" type="text" placeholder="AMMCS-CAIMS Google Search"/>
+              <button class="googlesearch btn">Go</button>
+            </form>
+            
             <div id="google_translate_element"></div>
           </ul>
         </div>
