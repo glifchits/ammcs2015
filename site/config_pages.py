@@ -2,7 +2,7 @@ PAGE_FOLDER = 'pages'
 
 routes = (
     ('Home', ''),
-    ('Special Sessions', 'special-sessions'),
+    ('Special Sessions & Minisymposia', 'special-sessions'),
     ('Contributed Sessions', 'contributed-sessions'),
     ('Submit Abstracts', 'submit-abstracts'),
     ('Deadlines & Payment', 'deadlines-payment'),
