@@ -1,6 +1,11 @@
 .header {
   padding-bottom: 3em;
   border-bottom: 1px solid $border-colour;
+
+  background: url('/static/images/fibopt.png') no-repeat;
+  background-size: auto 100%;
+  background-color: black;
+
  .ammcs-logo {
     background: url('/static/images/logo/logo-web.png') no-repeat;
     background-size: contain;
@@ -13,14 +18,18 @@
     text-align: left;
     padding-left: 10px;
     font-family: 'Lato', sans-serif;
-    h1 {
+    h1 { // The 2015 AMMCS-CAIMS Congress
       color: $ammcs-blue;
       font-weight: bold;
       font-style: italic;
       font-size: 40px;
     }
-    h2 {
-      color: #999;
+    h2 { // Interdisciplinary AMMCS Conference Series
+      color: #bbb;
+    }
+    span { // Waterloo, Ontario...
+      padding-top: 10px;
+      color: #888;
     }
   }
   h1, h2, span {
