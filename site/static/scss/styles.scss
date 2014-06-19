@@ -5,7 +5,7 @@ $body-text: black;
 @import 'header';
 @import 'menu';
 
-a {
+.content a {
   color: darken(steelblue, 10%);
   text-decoration: none;
   &:hover {

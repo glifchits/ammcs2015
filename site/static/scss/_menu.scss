@@ -1,18 +1,23 @@
 #menu {
+  // heading (AMMCS-CAIMS 2015)
   .pure-menu-heading {
     background: transparent;
     color: lighten($ammcs-blue, 20%);
   }
-  ul {
-    li {
-      &.pure-menu-selected {
-        background-color: $ammcs-blue;
-      }
-      a {
-        font-size: 14px;
-      }
+
+  border-right: 1px solid #ccc;
+
+  ul li {
+    a {
+      font-size: 14px;
+      color: #444;
+    }
+    &.pure-menu-selected {
+      background: #ddd;
     }
   }
+
+  /***** everything below this line are google widget styles *****/
   #google_translate_element {
     padding: 8px 4px;
     a {
