@@ -1,8 +1,8 @@
 #menu {
   // heading (AMMCS-CAIMS 2015)
   .pure-menu-heading {
-    background: transparent;
-    color: lighten($ammcs-blue, 20%);
+    background: black;
+    color: $ammcs-blue;
   }
 
   border-right: 1px solid #ccc;
