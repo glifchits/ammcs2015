@@ -2,15 +2,20 @@ $border-colour: #ccc;
 $ammcs-blue: #35ace5;
 $logo-blue: #303093;
 $body-text: black;
+$link-color: darken(steelblue, 10%);
 
 @import 'header';
 @import 'menu';
 
 .content a {
-  color: darken(steelblue, 10%);
   text-decoration: none;
+  color: $link-color;
   &:hover {
     color: steelblue;
+  }
+  &:visited {
+    text-decoration: none;
+    color: $link-color;
   }
 }
 
@@ -47,6 +52,14 @@ footer {
   padding: 1em 0;
   text-align: center;
   bottom: 0;
+  a {
+    color: $ammcs-blue;
+    text-decoration: none;
+    &:visited {
+      text-decoration: none;
+      color: $ammcs-blue;
+    }
+  }
 }
 
 hr {
