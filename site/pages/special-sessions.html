@@ -24,10 +24,10 @@ include:
     </tr>
   </thead>
   <tbody> 
-    {% for code, info in sessions.items() %}
+    {% for code, info in sessions.items()|sort %}
     <tr>
       <td> {{ loop.index }} </td>
-      <td> SS-{{ code|upper }} </td>
+      <td> ST-{{ code|upper }} </td>
       <td> <a href="/special-sessions/{{ code }}/">{{ info[0] }}</a> </td>
       <td> {{ info[1] }} </td>
     </tr>

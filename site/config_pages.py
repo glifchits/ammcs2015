@@ -18,12 +18,15 @@ routes = (
 )
 
 sessions = (
-    ('sgt', 'Structured Graph Theory', 'Chinh Hoang and Kathie Cameron (WLU)'),
-    ('me', 'Mathematical Epidemiology', 'Connel McCluskey'),
+    ('scna',
+    'The 2nd Canadian Symposium on Scientific Computing and Numerical Analysis',
+    'TBA'),
+    ('im', 'Industrial Mathematics', 'TBA'),
+    ('mb', 'Mathematical Biology', 'TBA'),
+    ('aads', 'Applied analysis and dynamical systems', 'TBA'),
+    ('acm', 'Applied and computational mechanics', 'TBA'),
 )
 
-# this line removes the table contents
-sessions = ()
 
 # determines the set of accessible pages
 import os
@@ -41,6 +44,6 @@ ROUTES = OrderedDict()
 for k, v in routes:
     ROUTES[k] = v
 
-SESSIONS = OrderedDict()
+SESSIONS = {}
 for code, title, orgs in sessions:
     SESSIONS[code] = (title, orgs)
