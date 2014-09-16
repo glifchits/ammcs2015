@@ -22,6 +22,10 @@ def natural_list(lst):
     lst = map(to_str, lst)
     return ', '.join(lst)
 
+ROUTES = OrderedDict()
+for k, v in routes:
+    ROUTES[k] = v
+
 # determines the set of accessible pages
 PAGES = set()
 for root, directory, files in os.walk(PAGE_FOLDER):
@@ -47,9 +51,6 @@ def main():
 def routing(route):
     if route in PAGES:
         obj = data_obj()
-        ROUTES = OrderedDict()
-        for k, v in routes:
-            ROUTES[k] = v
         return render_template(route+HTML, pages=ROUTES, **obj)
     else:
         abort(404)

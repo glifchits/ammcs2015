@@ -23,7 +23,8 @@
 
 <h2>Technical Support Committee</h2>
 <ul>
-  {% for (first, last, role) in committee.technical %}
+  <li>George Lifchits (Web Coordinator)</li>
+  {% for (first, last, role) in committee.technical[1:]|sort(attribute=1) %}
   <li>{{ first }} {{ last }} ({{ role }})</li>
   {% endfor %}
 </ul>
