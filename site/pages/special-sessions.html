@@ -24,12 +24,12 @@ include:
     </tr>
   </thead>
   <tbody> 
-    {% for code, info in sessions.items()|sort %}
+    {% for code, title, org in sessions %}
     <tr>
       <td> {{ loop.index }} </td>
       <td> ST-{{ code|upper }} </td>
-      <td> <a href="/special-sessions/{{ code }}/">{{ info[0] }}</a> </td>
-      <td> {{ info[1] }} </td>
+      <td> <a href="/special-sessions/{{ code }}/">{{ title }}</a> </td>
+      <td> {{ org|natural_list }} </td>
     </tr>
     {% endfor %}
   </tbody>
