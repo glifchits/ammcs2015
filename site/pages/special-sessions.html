@@ -18,7 +18,7 @@ include:
   <thead>
     <tr>
       <td></td>
-      <td> ID </td>
+      <td class="id"> ID </td>
       <td> Title </td>
       <td> Organizer(s)</td>
     </tr>
@@ -27,7 +27,7 @@ include:
     {% for code, title, org in sessions %}
     <tr>
       <td> {{ loop.index }} </td>
-      <td> ST-{{ code|upper }} </td>
+      <td class="id"> ST-{{ code|upper }} </td>
       <td> <a href="/special-sessions/{{ code }}/">{{ title }}</a> </td>
       <td> {{ org|natural_list }} </td>
     </tr>
