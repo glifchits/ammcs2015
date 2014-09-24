@@ -62,20 +62,23 @@ class committee:
         ('Carlos', 'Garcia-Cevera', 'University of California, Santa Barbara'),
         ('David', 'Cai', 'New York University'),
         ('Dimitri', 'Vvedensky', 'Imperial College London'),
-        ('Ian', 'Frigaard', 'University of British Columbia'),
         ('John', 'Lowengrub', 'University of California, Irvine'),
         ('Nicholas', 'Zabaras', 'University of Warwick'),
-        ('Raymond', 'Spiteri', 'University of Saskatchewan'),
         ('Shaofan', 'Li', 'University of California, Berkeley'),
         ('Chi-Wang', 'Shu', 'Brown University'),
         ('Boris', 'Malomed', 'Tel Aviv University'),
         ('Anatoli', 'Ivanov', 'Penn State University'),
         ('Olof', 'Runborg', 'KTH Royal Institute of Technology'),
         ('Alberto', 'Bressan', 'Penn State University'),
+        ('Konstantina', 'Trivisa', 'University of Maryland'),
+    )
+
+    organizing = (
+        ('Ian', 'Frigaard', 'University of British Columbia'),
+        ('Raymond', 'Spiteri', 'University of Saskatchewan'),
     )
 
     technical = (
-        ('George', 'Lifchits', 'Web Coordinator'),
         ('Sanjay', 'Prabhakar', 'Computer Support'),
-        ('Shyam', 'Badu', 'Digital Media Support')
+        ('Shyam', 'Badu', 'Digital Media Support'),
     )
