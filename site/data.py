@@ -23,7 +23,7 @@ sessions = (
         (
             'Scott MacLachlan (MUN)', 'Justin Wan (Waterloo)',
             'Hans de Sterck (Waterloo)',
-            'Ben Adcock (SFU – currently moving from Purdue)'
+            'Ben Adcock (SFU)'
         )
         )
     ,
@@ -38,7 +38,11 @@ sessions = (
         )
     ,
     ('mb',
-        'Mathematical Biology', ('Frithjof Lutscher (Ottawa)',)
+        'Mathematical Biology',
+        (
+            'Frithjof Lutscher (Ottawa)',
+            'Lea Popovic (Concordia)'
+        )
         )
     ,
     ('aads', 'Applied analysis and dynamical systems',
