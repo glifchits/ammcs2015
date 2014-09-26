@@ -18,16 +18,34 @@ routes = (
 )
 
 sessions = (
-    ('scna',
+    ('msmb', 'ss',
+        'Modeling & Simulation in Medicine and Biology',
+        (
+            'Suzanne Shontz (University of Kansas)',
+            'Corina Drapaca (Penn State University)'
+        )
+    ),
+    ('mmnn', 'ss',
+        'Mathematical Models for Nanoscience and Nanotechnology',
+        ( 'Zoran Miskovic and Hamed Majedi (University of Waterloo)',)
+    ),
+    ('aaip', 'ss',
+        'Title TBA',
+        ( 'Herb Kunze (University of Guelph)', )
+    ),
+    ('sndta', 'ss',
+        'Title TBA',
+        ( 'Manuele Santoprete (WLU, Waterloo)', )
+    ),
+    ('scna', 'st',
         'The 2nd Canadian Symposium on Scientific Computing and Numerical Analysis',
         (
             'Scott MacLachlan (MUN)', 'Justin Wan (Waterloo)',
             'Hans de Sterck (Waterloo)',
             'Ben Adcock (SFU)'
         )
-        )
-    ,
-    ('im',
+    ),
+    ('im', 'st',
         'Industrial Mathematics',
         (
             'Huaxiong Huang (York)',
@@ -35,31 +53,29 @@ sessions = (
             'Odile Marcotte (UQAM & CRM)',
             'Sean Bohun (UOIT)',
         )
-        )
-    ,
-    ('mb',
+    ),
+    ('mb', 'st',
         'Mathematical Biology',
         (
             'Frithjof Lutscher (Ottawa)',
             'Lea Popovic (Concordia)'
         )
-        )
-    ,
-    ('aads', 'Applied analysis and dynamical systems',
+    ),
+    ('aads', 'st',
+        'Applied analysis and dynamical systems',
         (
             'Xingfu Zou (UWO)',
             'Dmitry Pelinovsky (McMaster)',
             'David Iron (Dalhousie)'
         )
-        )
-    ,
-    ('acm', 'Applied and computational mechanics',
-        ('Marek Stasna (Waterloo)', 'Bartek Protas (McMaster)')
-        )
-    ,
+    ),
+    ('acm', 'st',
+        'Applied and computational mechanics',
+        ( 'Marek Stasna (Waterloo)', 'Bartek Protas (McMaster)')
+    ),
 )
 
-sess_by_code = { code: (info, org) for code, info, org in sessions }
+sess_by_code = { code: (info, org, stype) for code, stype, info, org in sessions }
 
 class committee:
     scientific = (

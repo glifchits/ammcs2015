@@ -26,10 +26,10 @@
     </tr>
   </thead>
   <tbody>
-    {% for code, title, org in sessions %}
+    {% for code, session_type, title, org in sessions %}
     <tr>
       <td> {{ loop.index }} </td>
-      <td class="id"> ST-{{ code|upper }} </td>
+      <td class="id"> {{ session_type|upper }}-{{ code|upper }} </td>
       <td> <a href="/special-sessions/{{ code }}/">{{ title }}</a> </td>
       <td> {{ org|natural_list }} </td>
     </tr>
