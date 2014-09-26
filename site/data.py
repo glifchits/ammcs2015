@@ -77,12 +77,28 @@ class committee:
         ('Konstantina', 'Trivisa', 'University of Maryland'),
     )
 
+    general_chairs = (
+        ('Jacques', 'Bélair', 'University of Montreal'),
+        ('Roman', 'Makarov', 'Wilfrid Laurier University, Waterloo'),
+        ('Roderick', 'Melnik', 'Wilfrid Laurier University, Waterloo')
+    )
+
     organizing = (
-        ('Ian', 'Frigaard', 'University of British Columbia'),
-        ('Raymond', 'Spiteri', 'University of Saskatchewan'),
+        ('Herb', 'Kunze', 'Congress Program Chair, University of Guelph'),
+        ('Zilin', 'Wang', 'Congress Treasurer, WLU, Waterloo'),
+        ('Chester', 'Weatherby', 'Student Prize Committee Chair, WLU, Waterloo'),
+        ('Ian', 'Frigaard', 'Global OC, University of British Columbia, Vancouver'),
+        ('Raymond', 'Spiteri', 'Global OC, University of Saskatchewan, Saskatoon'),
     )
 
     technical = (
         ('Sanjay', 'Prabhakar', 'Computer Support'),
         ('Shyam', 'Badu', 'Digital Media Support'),
     )
+
+    students = (
+        ('Igor', 'Ivashev', 'WLU, Waterloo'),
+        ('Kenneth', 'Onuma', 'WLU, Waterloo')
+    )
+
+

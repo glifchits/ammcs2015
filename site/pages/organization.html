@@ -13,7 +13,7 @@
 
 <h2>Organizing Committee</h2>
 <ul>
-  {% for (first, last, inst) in committee.organizing|sort(attribute=1) %}
+  {% for (first, last, inst) in committee.organizing %}
   <li>{{ first }} {{ last }} ({{ inst }})</li>
   {% endfor %}
 </ul>
@@ -33,6 +33,8 @@
 
 <h2>AMMCS-CAIMS-2015 Students Team </h2>
 <ul>
-  <li>TBA</li>
+  {% for (first, last, inst) in committee.students|sort(attribute=1) %}
+  <li>{{ first }} {{ last }} ({{ inst }})</li>
+  {% endfor %}
 </ul>
 {% endblock %}
