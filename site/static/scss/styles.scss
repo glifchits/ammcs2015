@@ -94,16 +94,16 @@ img {
 }
 
 .supporters {
+  padding: 10px;
+  text-align: center;
   .logo {
     height: 100px;
-    text-align: center;
   }
-}
-
-.conf-logos {
-  text-align: center;
-  height: 130px;
-  padding: 30px;
+  .conf-logos {
+    img {
+      max-height: 130px;
+    }
+  }
 }
 
 #search-results-header {
