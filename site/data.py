@@ -96,7 +96,7 @@ class committee:
     )
 
     general_chairs = (
-        ('Jacques', 'Bélair', 'University of Montreal'),
+        ('Jacques', u'Bélair', 'University of Montreal'),
         ('Roman', 'Makarov', 'Wilfrid Laurier University, Waterloo'),
         ('Roderick', 'Melnik', 'Wilfrid Laurier University, Waterloo')
     )

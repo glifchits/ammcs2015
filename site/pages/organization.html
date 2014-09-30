@@ -11,6 +11,13 @@
   {% endfor %}
 </ul>
 
+<h2>General Chairs</h2>
+<ul>
+  {% for (first, last, inst) in committee.general_chairs %}
+  <li>{{ first }} {{ last }} ({{ inst }})</li>
+  {% endfor %}
+</ul>
+
 <h2>Organizing Committee</h2>
 <ul>
   {% for (first, last, inst) in committee.organizing %}
