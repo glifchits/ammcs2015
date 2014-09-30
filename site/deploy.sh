@@ -1,5 +1,6 @@
 #!/bin/bash
 
+gulp styles
 python freezer.py
 cp static/files/google82f44dcd8eab57e0.html build && echo "copied google validation html"
 echo "Connecting to server..."
