@@ -91,6 +91,8 @@ class committee:
         ('Olof', 'Runborg', 'KTH Royal Institute of Technology'),
         ('Alberto', 'Bressan', 'Penn State University'),
         ('Konstantina', 'Trivisa', 'University of Maryland'),
+        ('Ronald', 'Coifman*', 'Yale University'),
+        ('Andrew', 'Majda*', 'New York University'),
     )
 
     general_chairs = (
