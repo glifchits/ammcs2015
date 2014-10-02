@@ -26,6 +26,12 @@ sess_by_code = \
     { code: (info, org, stype)
         for code, stype, info, org in sessions }
 
+plenary = {
+    "budd": ('Chris', 'Budd', 'University of Bath', 'budd.jpg')
+}
+
+plenary_as_list = [ (key,) + plenary[key] for key in plenary.keys() ]
+
 class committee:
     scientific = (
         ('Carlos', 'Garcia-Cevera', 'University of California, Santa Barbara'),

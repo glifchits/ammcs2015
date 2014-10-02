@@ -7,7 +7,9 @@
 <p> Confirmed plenary speakers at this conference include (with links to the abstracts of their talks): </p>
 
 <ul>
-  <li>TBA</li>
+  {% for name, first, last, inst, _ in plenary_as_list %}
+  <li><a href="{{name}}">{{first}} {{last}}</a> ({{inst}})</li>
+  {% endfor %}
 </ul>
 
 <p>The conference also features several distinguished semi-plenary speakers, including
