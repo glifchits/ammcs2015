@@ -48,6 +48,7 @@ class committee:
         ('Konstantina', 'Trivisa', 'University of Maryland'),
         ('Ronald', 'Coifman*', 'Yale University'),
         ('Andrew', 'Majda*', 'New York University'),
+        ('Maciej', 'Zworski*', 'University of California, Berkeley'),
     )
 
     general_chairs = (
