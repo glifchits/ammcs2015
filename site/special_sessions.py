@@ -8,8 +8,10 @@ sessions = [
             'Anatoli Ivanov (Penn State University)'
         )
     ),
-    ('hs', 'ss', 'Title: TBA', (
+    ('machs', 'ss', 'Modeling, Analysis and Control in Hybrid Systems', (
             'Xinzhi Liu (University of Waterloo)',
+            'Mohamad Alwan (University of Waterloo)',
+            'Peter Stechlinski (Massachusetts Institute of Technology)'
         )
     ),
     ('msmb', 'ss', 'Modeling & Simulation in Medicine and Biology', (
