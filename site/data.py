@@ -27,7 +27,10 @@ sess_by_code = \
         for code, stype, info, org in sessions }
 
 plenary = {
-    "budd": ('Chris', 'Budd', 'University of Bath', 'budd.jpg')
+    "budd": ('Chris', 'Budd', 'University of Bath', 'budd.jpg'),
+    "zabaras": ('Nicholas', 'Zabaras', 'University of Warwick', 'zabaras.jpg'),
+    "vanden-eijnden": ('Eric', 'Vanden-Eijnden', 'Courant Institute, New York University', 'vanden-eijnden.jpg'),
+    "yi": ('Yingfei', 'Yi', 'University of Alberta', '')
 }
 
 plenary_as_list = [ (key,) + plenary[key] for key in plenary.keys() ]
