@@ -69,6 +69,7 @@ class committee:
     )
 
     technical = (
+        ('Michael', 'Murray', 'Electronic Publishing Coordinator'),
         ('Sanjay', 'Prabhakar', 'Computer Support'),
         ('Shyam', 'Badu', 'Digital Media Support'),
     )
