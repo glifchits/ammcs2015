@@ -1,0 +1,43 @@
+﻿{% extends 'plenary-speakers/_plenary.html' %}
+
+{% block plenaryspeaker %}
+{% set name='zabaras' %}
+
+<h2>TBA</h2>
+
+<h3>{{ plenary[name][0] }} {{ plenary[name][1] }} ({{ plenary[name][2] }})</h3>
+
+<div class='abstract'>
+  TBA
+</div>
+
+{% if plenary[name][3] %}
+<img class="plenary-img" src="/static/images/plenary/{{ plenary[name][3] }}"></img>
+{% endif %}
+
+<div class="bio">
+  <!-- from http://www2.warwick.ac.uk/fac/sci/eng/staff/nz/ -->
+  <p>
+  Nicholas Zabaras received his PhD at Cornell University (1987) in the area
+  of Theoretical and Applied Mechanics with emphasis on the development of
+  boundary element methodologies and inverse/design materials problems. Upon
+  graduation he joined, as the youngest faculty member, the College of
+  Engineering (at the time raking No 2 in the USA) at the University of
+  Minnesota. Early research focused on the solution of inverse/design
+  problems in the area of materials processing.
+  </p>
+  <p>
+  In collaborative efforts with Alcoa and 3M, he developed fundamental
+  approaches to several critical problems in the processing of materials
+  (several of his former PhD students at the time are currently in leading
+  positions within these companies). For this work, he received in 1991 a
+  Presidential Award from President George H. W. Bush. Shortly after, Cornell
+  took the unusual step to create a position for him in the Sibley School of
+  Mechanical and Aerospace Engineering.
+  </p>
+  <p>
+  He joined the Warwick School of Engineering in July 2014.
+  </p>
+</div>
+
+{% endblock %}
