@@ -7,7 +7,7 @@
 <p> Confirmed plenary speakers at this conference include (with links to the abstracts of their talks): </p>
 
 <ul>
-  {% for name, first, last, inst, _ in plenary_as_list %}
+  {% for name, first, last, inst, _ in plenary_as_list|sort(attribute=2) %}
   <li><a href="{{name}}/">{{first}} {{last}}</a> ({{inst}})</li>
   {% endfor %}
 </ul>
