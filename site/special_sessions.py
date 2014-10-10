@@ -25,8 +25,11 @@ sessions = [
     ('aaip', 'ss', 'Title TBA',
         ( 'Herb Kunze (University of Guelph)', )
     ),
-    ('sndta', 'ss', 'Title TBA',
-        ( 'Manuele Santoprete (WLU, Waterloo)', )
+    ('gamccm', 'ss', 'Geometric and Analytic Methods in Classical and Celestial Mechanics',
+        (
+            'Manuele Santoprete (WLU, Waterloo)',
+            'Lennard Bakker (Brigham Young University)'
+        )
     ),
     ('scna', 'st', 'The 2nd Canadian Symposium on Scientific Computing and Numerical Analysis', (
             'Scott MacLachlan (MUN)',
