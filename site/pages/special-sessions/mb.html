@@ -1,11 +1,17 @@
 {% extends 'special-sessions/special-session.html' %}
 
-{% block sessiondescription %}
+{% set code='mb' %}
 
-<h1>Minisymposium (ID: ST-MB)</h1>
-<h2>Mathematical Biology</h2>
-<h3>Organizers: {{ sess_by_code['mb'][1]|natural_list }}</h3>
-<p> 
-  TBA
-</p> 
+{% block abstract %}
+
+Mathematical models and their analysis continue to provide valuable insights
+into the mechanisms and drivers of biological systems from the sub-cellular
+to the ecosystem level. Vice versa, biological systems in general, and the
+recent increase in high-quality data sets in particular, have spurred and
+inspired mathematical research from dynamical systems to computational
+statistics. The BioMathematics theme will showcase the most recent
+developments in dynamical systems, stochastic modeling, and scientific
+computation and their close relation to biological systems, their mechanisms
+and emerging patterns.
+
 {% endblock %}

@@ -1,12 +1,7 @@
 {% extends 'special-sessions/special-session.html' %}
 
-{% block sessiondescription %}
 {% set code='machs' %}
-
-<h1>Minisymposium (ID: SS-{{ code|upper }})</h1>
-<h2>{{ sess_by_code[code][0] }}</h2>
-<h3>Organizers: {{ sess_by_code[code][1]|natural_list }}</h3>
-<p>
+{% block abstract %}
   There has been a growing interest in hybrid systems in recent years. Such
   systems exhibit both continuous (e.g. differential equations) and discrete
   (e.g. difference equations) dynamical behavior and have important
@@ -16,5 +11,4 @@
   management. This special session intends to provide an opportunity to learn
   and share new developments and to present research results in modeling,
   analysis and control in hybrid systems.
-</p>
 {% endblock %}

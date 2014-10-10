@@ -1,16 +1,12 @@
 {% extends 'special-sessions/special-session.html' %}
+{% set code='mfmcr' %}
+{% block abstract %}
 
-{% block sessiondescription %}
-
-<h1>Minisymposium (ID: SS-MFMCR)</h1>
-<h2>{{ sess_by_code['mfmcr'][0] }}</h2>
-<h3>Organizers: {{ sess_by_code['mfmcr'][1]|natural_list }}</h3>
-<p>
   This minisymposium covers a diverse range of topics in contemporary
   financial mathematics. This could include, but is not necessarily limited to,
   credit risk, pricing and hedging exotic derivatives, correlation modeling,
   numerical methods for PDE/PIDE problems in finance, simulation methods in
   finance, energy derivatives, market microstructure and problems in financial
   regulation.
-</p> 
+
 {% endblock %}

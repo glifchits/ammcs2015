@@ -3,8 +3,19 @@
 {% block body %}
 
 <div class='special-session'>
-{% block sessiondescription %}
+
+{% set title=sess_by_code[code][0] %}
+{% set orgs=sess_by_code[code][1] %}
+{% set stype=sess_by_code[code][2] %}
+
+<h1>Minisymposium (ID: {{ stype|upper }}-{{ code|upper }})</h1>
+<h2>{{ title }}</h2>
+<h3>Organizers: {{ orgs|natural_list }}</h3>
+
+<p> 
+{% block abstract %}
 {% endblock %}
+</p> 
 </div>
 
 <hr>

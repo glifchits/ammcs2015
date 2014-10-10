@@ -1,11 +1,5 @@
 {% extends 'special-sessions/special-session.html' %}
-
-{% block sessiondescription %}
-
-<h1>Minisymposium (ID: ST-IM)</h1>
-<h2>Industrial Mathematics</h2>
-<h3>Organizers: {{ sess_by_code['im'][1]|natural_list }}</h3>
-<p> 
+{% set code='im' %}
+{% block abstract %}
   TBA
-</p> 
 {% endblock %}

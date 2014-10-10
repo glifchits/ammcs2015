@@ -1,19 +1,14 @@
 {% extends 'special-sessions/special-session.html' %}
-
-{% block sessiondescription %}
 {% set code='gamccm' %}
+{% block abstract %}
 
-<h1>Minisymposium (ID: SS-{{ code|upper }})</h1>
-<h2>{{ sess_by_code[code][0] }}</h2>
-<h3>Organizers: {{ sess_by_code[code][1]|natural_list }}</h3>
-<p>
-  The aim of this session is to bring together researchers interested in the
-  mathematical aspects of mechanics.  Distinguished areas include integrable
-  systems and KAM theory,  global analysis, variational methods, differential
-  geometry, symmetry and reduction,  differential equations with delay. The
-  emphasis will be on the applications of these theories in  celestial
-  mechanics, geometric mechanics  (motions of rigid bodies, holonomic and
-  non-holonomic mechanics), geometric control, Hamiltonian and Lagrangian
-  dynamics, statistical mechanics.
-</p>
+The aim of this session is to bring together researchers interested in the
+mathematical aspects of mechanics.  Distinguished areas include integrable
+systems and KAM theory,  global analysis, variational methods, differential
+geometry, symmetry and reduction,  differential equations with delay. The
+emphasis will be on the applications of these theories in  celestial
+mechanics, geometric mechanics  (motions of rigid bodies, holonomic and
+non-holonomic mechanics), geometric control, Hamiltonian and Lagrangian
+dynamics, statistical mechanics.
+
 {% endblock %}
