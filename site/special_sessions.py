@@ -1,4 +1,8 @@
 sessions = [
+    ('ssmmbp', 'ss', 'Simulations in Soft Matter and Molecular Bio-Physics', (
+            'Cristiano Dias (New Jersey Institute of Technology)',
+        )
+    ),
     ('mfmcr', 'ss', 'Mathematical Finance - Modeling, Computation and Risk Management', (
             'Joe Campolieti', 'Adam Metzler (WLU, Waterloo)'
         )
