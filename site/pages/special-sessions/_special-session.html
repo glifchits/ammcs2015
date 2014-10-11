@@ -2,6 +2,10 @@
 {% set active_page = 'special-sessions' %}
 {% block body %}
 
+{% if code == None %}
+{% set code = '' %}
+{% endif %}
+
 <div class='special-session'>
 
 {% set title=sess_by_code[code][0] %}
