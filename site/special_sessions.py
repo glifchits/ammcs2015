@@ -7,7 +7,7 @@ sessions = [
             'Joe Campolieti', 'Adam Metzler (WLU, Waterloo)'
         )
     ),
-    ('ddd', 'ss', 'Title: TBA', (
+    ('ddemm', 'ss', 'Delay Differential Equations as Mathematical Models of Real World Phenomena', (
             'Elena Braverman (University of Calgary)',
             'Anatoli Ivanov (Penn State University)'
         )
