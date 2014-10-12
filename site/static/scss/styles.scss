@@ -100,11 +100,6 @@ table#special-sessions {
 
   div.abstract {
     padding: 0 30px 30px;
-    &:before {
-      content: "Abstract: ";
-      font-weight: bold;
-      font-style: italic;
-    }
   }
   
   div.bio {
@@ -114,6 +109,12 @@ table#special-sessions {
       font-style: italic;
     }
   }
+}
+
+.abstract:before {
+  content: "Abstract: ";
+  font-weight: bold;
+  font-style: italic;
 }
 
 div.note {
