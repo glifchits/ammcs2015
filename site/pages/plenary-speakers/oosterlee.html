@@ -3,12 +3,24 @@
 {% block plenaryspeaker %}
 {% set name='oosterlee' %}
 
-<h2>TBA</h2>
+<h2>
+  On Fourier cosine expansions and wavelets for derivative pricing and risk management in computational finance
+</h2>
 
 <h3>{{ plenary[name][0] }} {{ plenary[name][1] }} ({{ plenary[name][2] }})</h3>
 
 <div class='abstract'>
-  TBA
+  In this talk, we discuss applications of Fourier cosine
+  expansions and wavelets in computational finance. Next to the accurate and
+  efficient valuation of various financial options, we recently generalized the
+  methods towards risk management and the numerical solution of backward
+  stochastic differential equations (BSDEs). Typically Fourier techniques in
+  finance rely on the availability of the asset dynamics' characteristic
+  function (ie. the Fourier transform of the asset's density function). We will
+  discuss a numerical Fourier method for which the characteristic function need
+  not be available. The resulting methods can then also be employed for
+  problems with varying coefficients (local volatility, stochastic local
+  volatility) models), such as for the Stochastic Alpha Beta Rho (SABR) method.
 </div>
 
 {% if plenary[name][3] %}
@@ -16,7 +28,21 @@
 {% endif %}
 
 <div class="bio">
-  TBA
+  Prof. Kees Oosterlee
+  (<a href="http://www.cwi.nl/people/2098">http://www.cwi.nl/people/2098</a>,
+  <a href="http://ta.twi.tudelft.nl/mf/users/oosterle/">http://ta.twi.tudelft.nl/mf/users/oosterle/</a>) 
+  works in numerical analysis and
+  scientific computing at the CWI, center for mathematics and computer science,
+  in Amsterdam, the Netherlands, as well as in the Delft University of
+  Technology. His field of expertise is Computational Finance, working at the
+  interface of numerical and financial mathematics. In Oosterlee’s group the
+  COS method, pricing financial derivatives efficiently with Fourier cosine
+  expansions, has been developed, which is in use at financial institutions
+  world-wide. Prof. Oosterlee is the Editor-in-Chief of the Journal of
+  Computational Finance. He has organized several international workshops and
+  conferences, and taught Summer Schools abroad (in Spain, Japan, South Africa)
+  on Computational Finance. His 90 journal publications range from multigrid
+  solution methods for fluid flow problems to Monte Carlo methods in finance.
 </div>
 
 {% endblock %}
