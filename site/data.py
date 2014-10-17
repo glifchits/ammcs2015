@@ -38,6 +38,7 @@ plenary = {
 plenary_as_list = [ (key,) + plenary[key] for key in plenary.keys() ]
 
 abstracts_link = 'https://www.conference-service.com/ammcs15/welcome.cgi'
+registration_link = 'https://events.mylaurier.ca/current.htm?action=registerStart&eventId=58'
 
 class committee:
     scientific = (
