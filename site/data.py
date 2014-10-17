@@ -37,6 +37,8 @@ plenary = {
 
 plenary_as_list = [ (key,) + plenary[key] for key in plenary.keys() ]
 
+abstracts_link = 'https://www.conference-service.com/ammcs15/welcome.cgi'
+
 class committee:
     scientific = (
         ('Carlos', 'Garcia-Cevera', 'University of California, Santa Barbara'),
