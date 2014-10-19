@@ -26,8 +26,12 @@ sessions = [
     ('mmnn', 'ss', 'Mathematical Models for Nanoscience and Nanotechnology',
         ( 'Zoran Miskovic and Hamed Majedi (University of Waterloo)',)
     ),
-    ('aaip', 'ss', 'Title TBA',
-        ( 'Herb Kunze (University of Guelph)', )
+    ('aaip', 'ss', 'Inverse Problem',
+        (
+            'Kim Herder (Guelph)',
+            'Herb Kunze (University of Guelph)',
+            'Davide La Torre (Milan, Italy)'
+        )
     ),
     ('gamccm', 'ss', 'Geometric and Analytic Methods in Classical and Celestial Mechanics',
         (
