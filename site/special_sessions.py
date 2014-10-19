@@ -1,4 +1,10 @@
 sessions = [
+    ('wdsee', 'ss', 'Wealth Distribution and Statistical Equilibrium in Economics',
+        (
+            'Enrico Scalas (University of Sussex)',
+            'Betram Duering (University of Sussex)'
+        )
+    ),
     ('ssmmbp', 'ss', 'Simulations in Soft Matter and Molecular Bio-Physics', (
             'Cristiano Dias (New Jersey Institute of Technology)',
         )
