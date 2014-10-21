@@ -1,4 +1,10 @@
 sessions = [
+    ('mmpf', 'ss', 'Title TBA',
+        (
+            'Forbes Burkowski (University of Waterloo)',
+            'Henry Wolkowicz (University of Waterloo)'
+        )
+    ),
     ('wdsee', 'ss', 'Wealth Distribution and Statistical Equilibrium in Economics',
         (
             'Enrico Scalas (University of Sussex)',
