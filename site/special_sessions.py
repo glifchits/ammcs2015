@@ -40,9 +40,8 @@ sessions = [
     ),
     ('aaip', 'ss', 'Inverse Problem',
         (
-            'Kim Herder (Guelph)',
-            'Herb Kunze (University of Guelph)',
-            'Davide La Torre (Milan, Italy)'
+            'Kim Herder and Herb Kunze (University of Guelph)',
+            'Davide La Torre (Khalifa University, UAE, and University of Milan, Italy)'
         )
     ),
     ('gamccm', 'ss', 'Geometric and Analytic Methods in Classical and Celestial Mechanics',
