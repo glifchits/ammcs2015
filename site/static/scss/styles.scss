@@ -67,9 +67,32 @@ hr {
   border-top: 1px solid $border-colour;
 }
 
-table#special-sessions {
-  td.id {
-    min-width: 80px;
+#special-sessions {
+  margin: 0;
+  padding: 0 0 0 20px;
+  li {
+    .id, .title {
+      font-weight: bold;
+      font-size: 16px;
+      padding-right: 5px;
+    }
+    .id {
+      color: #888;
+    }
+    .title {
+    }
+    .orgs {
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        li {
+          margin: 0;
+          padding: 0;
+        }
+      }
+    }
+    padding-bottom: 10px;
   }
 }
 
@@ -101,7 +124,7 @@ table#special-sessions {
   div.abstract {
     padding: 0 30px 30px;
   }
-  
+
   div.bio {
     &:before {
       content: "About the speaker: ";
