@@ -1,8 +1,8 @@
 sessions = [
     ('mmpf', 'ss', 'Title TBA',
         (
-            'Forbes Burkowski (University of Waterloo)',
-            'Henry Wolkowicz (University of Waterloo)'
+            'Forbes Burkowski (U of Waterloo)',
+            'Henry Wolkowicz (U of Waterloo)'
         )
     ),
     ('wdsee', 'ss', 'Wealth Distribution and Statistical Equilibrium in Economics',
@@ -11,32 +11,41 @@ sessions = [
             'Betram Duering (University of Sussex)'
         )
     ),
-    ('ssmmbp', 'ss', 'Simulations in Soft Matter and Molecular Bio-Physics', (
+    ('ssmmbp', 'ss', 'Simulations in Soft Matter and Molecular Bio-Physics',
+        (
             'Cristiano Dias (New Jersey Institute of Technology)',
         )
     ),
-    ('mfmcr', 'ss', 'Mathematical Finance - Modeling, Computation and Risk Management', (
-            'Joe Campolieti', 'Adam Metzler (WLU, Waterloo)'
+    ('mfmcr', 'ss', 'Mathematical Finance - Modeling, Computation and Risk Management',
+        (
+            'Joe Campolieti (WLU, Waterloo)',
+            'Adam Metzler (WLU, Waterloo)'
         )
     ),
-    ('ddemm', 'ss', 'Delay Differential Equations as Mathematical Models of Real World Phenomena', (
+    ('ddemm', 'ss', 'Delay Differential Equations as Mathematical Models of Real World Phenomena',
+        (
             'Elena Braverman (University of Calgary)',
             'Anatoli Ivanov (Penn State University)'
         )
     ),
-    ('machs', 'ss', 'Modeling, Analysis and Control in Hybrid Systems', (
-            'Xinzhi Liu (University of Waterloo)',
-            'Mohamad Alwan (University of Waterloo)',
+    ('machs', 'ss', 'Modeling, Analysis and Control in Hybrid Systems',
+        (
+            'Xinzhi Liu (U of Waterloo)',
+            'Mohamad Alwan (U of Waterloo)',
             'Peter Stechlinski (Massachusetts Institute of Technology)'
         )
     ),
-    ('msmb', 'ss', 'Modeling & Simulation in Medicine and Biology', (
+    ('msmb', 'ss', 'Modeling & Simulation in Medicine and Biology',
+        (
             'Suzanne Shontz (University of Kansas)',
             'Corina Drapaca (Penn State University)'
         )
     ),
     ('mmnn', 'ss', 'Mathematical Models for Nanoscience and Nanotechnology',
-        ( 'Zoran Miskovic and Hamed Majedi (University of Waterloo)',)
+        (
+            'Zoran Miskovic (U of Waterloo)',
+            'Hamed Majedi (U of Waterloo)',
+        )
     ),
     ('aaip', 'ss', 'Inverse Problem',
         (
@@ -52,8 +61,8 @@ sessions = [
     ),
     ('scna', 'st', 'The 2nd Canadian Symposium on Scientific Computing and Numerical Analysis', (
             'Scott MacLachlan (MUN)',
-            'Justin Wan (Waterloo)',
-            'Hans de Sterck (Waterloo)',
+            'Justin Wan (U of Waterloo)',
+            'Hans de Sterck (U of Waterloo)',
             'Ben Adcock (SFU)'
         )
     ),
@@ -66,7 +75,9 @@ sessions = [
     ),
     ('mb', 'st', 'Mathematical Biology', (
             'Frithjof Lutscher (Ottawa)',
-            'Lea Popovic (Concordia)'
+            'Lea Popovic (Concordia)',
+            'Rebecca Tyson (U of British Columbia)',
+            'Connell McCluskey (WLU, Waterloo)'
         )
     ),
     ('aads', 'st', 'Applied analysis and dynamical systems', (
@@ -76,7 +87,7 @@ sessions = [
         )
     ),
     ('acm', 'st', 'Applied and computational mechanics', (
-            'Marek Stasna (Waterloo)',
+            'Marek Stasna (U of Waterloo)',
             'Bartek Protas (McMaster)'
         )
     ),
