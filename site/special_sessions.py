@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 sessions = [
     ('mmpf', 'ss', 'Title TBA',
         (
@@ -8,7 +10,7 @@ sessions = [
     ('wdsee', 'ss', 'Wealth Distribution and Statistical Equilibrium in Economics',
         (
             'Enrico Scalas (University of Sussex)',
-            'Betram Duering (University of Sussex)'
+            u'Betram Düring (University of Sussex)'
         )
     ),
     ('ssmmbp', 'ss', 'Simulations in Soft Matter and Molecular Bio-Physics',
