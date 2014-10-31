@@ -16,18 +16,12 @@
   include:
 </p>
 
-<ol id="special-sessions" border=1>
+<ol id="special-sessions">
   {% for code, session_type, title, org in sessions %}
   <li>
     <span class="id"> {{ session_type|upper }}-{{ code|upper }} </span>
     <span class="title"> <a href="/special-sessions/{{ code }}/">{{ title }}</a> </span>
-    <div class="orgs">
-      <ul>
-        {% for name in org %}
-        <li> {{ name }} </li>
-        {% endfor %}
-      </ul>
-    </div>
+    <div> {{ org|natural_list }} </div>
   </li>
   {% endfor %}
 </ol>
