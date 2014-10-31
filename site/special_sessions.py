@@ -67,36 +67,42 @@ sessions = [
             'Lennard Bakker (Brigham Young University)'
         )
     ),
-    ('scna', 'st', 'The 2nd Canadian Symposium on Scientific Computing and Numerical Analysis', (
+    ('scna', 'st', 'The 2nd Canadian Symposium on Scientific Computing and Numerical Analysis',
+        (
             'Scott MacLachlan (MUN)',
             'Justin Wan (U of Waterloo)',
             'Hans de Sterck (U of Waterloo)',
             'Ben Adcock (SFU)'
         )
     ),
-    ('im', 'st', 'Industrial Mathematics', (
+    ('im', 'st', 'Industrial Mathematics',
+        (
             'Huaxiong Huang (York)',
             'John Stockie (SFU)',
             'Odile Marcotte (UQAM & CRM)',
             'Sean Bohun (UOIT)',
         )
     ),
-    ('mb', 'st', 'Mathematical Biology', (
+    ('mb', 'st', 'Mathematical Biology',
+        (
             'Frithjof Lutscher (Ottawa)',
             'Lea Popovic (Concordia)',
             'Rebecca Tyson (U of British Columbia)',
             'Connell McCluskey (WLU, Waterloo)'
         )
     ),
-    ('aads', 'st', 'Applied analysis and dynamical systems', (
+    ('aads', 'st', 'Applied analysis and dynamical systems',
+        (
             'Xingfu Zou (UWO)',
             'Dmitry Pelinovsky (McMaster)',
             'David Iron (Dalhousie)'
         )
     ),
-    ('acm', 'st', 'Applied and computational mechanics', (
-            'Marek Stasna (U of Waterloo)',
-            'Bartek Protas (McMaster)'
+    ('acm', 'st', 'Applied and computational mechanics',
+        (
+            'Marek Stastna (U of Waterloo)',
+            'Bartek Protas (McMaster)',
+            'Il Yong Kim (Queens)'
         )
     ),
 ]
