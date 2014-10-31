@@ -17,9 +17,7 @@ app = Flask(__name__, template_folder=PAGE_FOLDER)
 
 @app.template_filter('natural_list')
 def natural_list(lst):
-    def to_str(e):
-        return e.decode('utf-8')
-    lst = map(to_str, lst)
+    lst = map(unicode, lst)
     return ', '.join(lst)
 
 ROUTES = OrderedDict()
