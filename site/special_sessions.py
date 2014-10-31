@@ -1,7 +1,13 @@
 # -*- coding: utf-8 -*-
 
 sessions = [
-    ('mmpf', 'ss', 'Title TBA',
+    ('fcp', 'ss', 'Fractional Calculus and Probability',
+        (
+            'Mark M. Meerschaert (Michigan State University)',
+            'Enrico Scalas (University of Sussex)'
+        )
+    ),
+    ('mmpnd', 'ss', 'Matrix Manifold Problems subject to Noisy Data',
         (
             'Forbes Burkowski (U of Waterloo)',
             'Henry Wolkowicz (U of Waterloo)'
