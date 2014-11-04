@@ -16,7 +16,7 @@ sessions = [
     ('wdsee', 'ss', 'Wealth Distribution and Statistical Equilibrium in Economics',
         (
             'Enrico Scalas (University of Sussex)',
-            u'Betram Düring (University of Sussex)'
+            u'Bertram Düring (University of Sussex)'
         )
     ),
     ('ssmmbp', 'ss', 'Simulations in Soft Matter and Molecular Bio-Physics',
