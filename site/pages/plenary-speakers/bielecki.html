@@ -1,0 +1,20 @@
+﻿{% extends 'plenary-speakers/_plenary.html' %}
+
+{% block plenaryspeaker %}
+{% set name='bielecki' %}
+
+<h2>TBA</h2>
+
+<h3>{{ plenary[name][0] }} {{ plenary[name][1] }} ({{ plenary[name][2] }})</h3>
+
+<div class='abstract'>
+  TBA
+</div>
+
+<img class="plenary-img" src="/static/images/plenary/{{ plenary[name][3] }}"></img>
+
+<div class="bio">
+  TBA  
+</div>
+
+{% endblock %}

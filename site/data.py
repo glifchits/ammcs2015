@@ -28,6 +28,7 @@ sess_by_code = \
 
 plenary = {
     "budd": ('Chris', 'Budd', 'University of Bath', 'budd.jpg'),
+    "bielecki": ('Tomasz', 'Bielecki', 'Illinois Institute of Technology', 'bielecki.jpg'),
     "zabaras": ('Nicholas', 'Zabaras', 'University of Warwick', 'zabaras.jpg'),
     "vanden-eijnden": ('Eric', 'Vanden-Eijnden', 'Courant Institute, New York University', 'vanden-eijnden.jpg'),
     "yi": ('Yingfei', 'Yi', 'University of Alberta', 'Yingfei-Yi.jpg'),
