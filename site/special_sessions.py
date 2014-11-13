@@ -1,6 +1,12 @@
 # -*- coding: utf-8 -*-
 
 sessions = [
+    ('tba1', 'ss', 'Title TBA',
+        (
+            'Dimitris Giannakis (New York University)',
+            'Tyrus Berry (Penn State University)'
+        )
+    ),
     ('fcp', 'ss', 'Fractional Calculus and Probability',
         (
             'Mark M. Meerschaert (Michigan State University)',
