@@ -61,7 +61,7 @@ sessions = [
             'Hamed Majedi (U of Waterloo)',
         )
     ),
-    ('aaip', 'ss', 'Inverse Problem',
+    ('aaip', 'ss', 'Inverse Problems',
         (
             'Kim Herder and Herb Kunze (University of Guelph)',
             'Davide La Torre (Khalifa University, UAE, and University of Milan, Italy)'
