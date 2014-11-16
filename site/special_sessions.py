@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 sessions = [
-    ('tba1', 'ss', 'Title TBA',
+    ('ddmds', 'ss', 'Data-driven methods for dynamical systems',
         (
             'Dimitris Giannakis (New York University)',
             'Tyrus Berry (Penn State University)'
