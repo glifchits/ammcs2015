@@ -4,3 +4,4 @@ build
 .sass-cache
 node_modules/
 static/css
+static/**/thumbs

@@ -1,47 +1,37 @@
 ﻿{% extends 'plenary-speakers/_plenary.html' %}
-
-{% block plenaryspeaker %}
 {% set name='vanden-eijnden' %}
 
-<h2>Multiscale Modeling in a Stochastic Setting</h2>
+{% block title %}Multiscale Modeling in a Stochastic Setting{% endblock %}
 
-<h3>{{ plenary[name][0] }} {{ plenary[name][1] }} ({{ plenary[name][2] }})</h3>
+{% block abstract %}
+Applications from molecular dynamics, material science, biology, or
+atmosphere/ocean sciences present new challenges for applied and numerical
+mathematics. These applications typically involve systems whose dynamics span a
+very wide range of spatio-temporal scales, and are subject to random
+perturbations of thermal or other origin. This second aspect especially
+complicates the modeling and computation of these systems and requires one to
+revisit standard tools from numerical analysis from a probabilistic
+perspective. In this talk I will discuss recent advances that have been made in
+this context. For example, I will show how tools from Freidlin-Wentzell theory
+of large deviations and potential theoretic approaches to metastability can be
+used to develop numerical algorithms to accelerate the computations of reactive
+events arising in metastable systems. I will also explain how averaging
+theorems for singularly perturbed Markov processes can help develop schemes
+bridging micro- to macro-scales of description or compute free energies, etc.
+As illustrations, I will use a selection of examples from molecular dynamics,
+material sciences, and fluid dynamics and show how the confrontation with
+actual problems not only profits from the theory but also enriches it.
+{% endblock %}
 
-<div class='abstract'>
-  Applications from molecular dynamics, material science, biology, or
-  atmosphere/ocean sciences present new challenges for applied and numerical
-  mathematics. These applications typically involve systems whose dynamics span a
-  very wide range of spatio-temporal scales, and are subject to random
-  perturbations of thermal or other origin. This second aspect especially
-  complicates the modeling and computation of these systems and requires one to
-  revisit standard tools from numerical analysis from a probabilistic
-  perspective. In this talk I will discuss recent advances that have been made in
-  this context. For example, I will show how tools from Freidlin-Wentzell theory
-  of large deviations and potential theoretic approaches to metastability can be
-  used to develop numerical algorithms to accelerate the computations of reactive
-  events arising in metastable systems. I will also explain how averaging
-  theorems for singularly perturbed Markov processes can help develop schemes
-  bridging micro- to macro-scales of description or compute free energies, etc.
-  As illustrations, I will use a selection of examples from molecular dynamics,
-  material sciences, and fluid dynamics and show how the confrontation with
-  actual problems not only profits from the theory but also enriches it.
-</div>
-
-{% if plenary[name][3] != '' %}
-<img class="plenary-img" src="/static/images/plenary/{{ plenary[name][3] }}"></img>
-{% endif %}
-
-<div class="bio">
-  <!-- from http://cims.nyu.edu/~eve2/ -->
-  My main focus is the development of mathematical tools and numerical methods
-  for the analysis of dynamical systems which are both stochastic and multiscale.
-  The particular areas of applications I am interested in include molecular
-  dynamics, chemical and biological networks, materials science, atmosphere-ocean
-  science, and fluids dynamics. My main objectives are to understand the pathways
-  and rate of occurrence of rare events in complex systems; to develop and
-  analyze multiscale algorithms for the simulation of random dynamical systems;
-  and, more generally, to quantify the effects of random perturbations on the
-  systems dynamics. 
-</div>
-
+{% block bio %}
+<!-- from http://cims.nyu.edu/~eve2/ -->
+My main focus is the development of mathematical tools and numerical methods
+for the analysis of dynamical systems which are both stochastic and multiscale.
+The particular areas of applications I am interested in include molecular
+dynamics, chemical and biological networks, materials science, atmosphere-ocean
+science, and fluids dynamics. My main objectives are to understand the pathways
+and rate of occurrence of rare events in complex systems; to develop and
+analyze multiscale algorithms for the simulation of random dynamical systems;
+and, more generally, to quantify the effects of random perturbations on the
+systems dynamics. 
 {% endblock %}

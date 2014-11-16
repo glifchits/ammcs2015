@@ -1,11 +1,17 @@
 {% extends '_layout.html' %}
 {% set active_page = 'plenary-speakers' %}
 {% block body %}
-
 <div class='plenary-speaker'>
-<h1>{{ speaker_address }}</h1>
-{% block plenaryspeaker %}
-{% endblock %}
+  <h1>{{ speaker_address }}</h1>
+  <h2>{% block title %}TBA{% endblock %}</h2>
+  <h3>{{ plenary[name][0] }} {{ plenary[name][1] }} ({{ plenary[name][2] }})</h3>
+  <div class="abstract">
+    {% block abstract %}TBA{% endblock %}
+  </div>
+  <img class="plenary-img" src="/static/images/plenary/thumbs/{{ plenary[name][3] }}"></img>
+  <div class="bio">
+    {% block bio %}TBA{% endblock %}
+  </div>
 </div>
-
 {% endblock %}
+

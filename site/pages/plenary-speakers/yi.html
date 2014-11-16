@@ -1,57 +1,43 @@
 ﻿{% extends 'plenary-speakers/_plenary.html' %}
-
-{% block plenaryspeaker %}
 {% set name='yi' %}
 
-<h2>
-  Noise Impact on Finite  Dimensional Dynamical Systems
-</h2>
+{% block title %}Noise Impact on Finite Dimensional Dynamical Systems{% endblock %}
 
-<h3>{{ plenary[name][0] }} {{ plenary[name][1] }} ({{ plenary[name][2] }})</h3>
+{% block abstract %}
+Dynamical systems are often subjected to  noise perturbations either from
+external sources or  from their own intrinsic uncertainties.  While it is well
+believed that  noises can have dramatic effects on the stability of a
+deterministic system at both local and global levels, mechanisms behind noise
+surviving or robust dynamics have not been well understood  especially from
+distribution perspectives.  This talk attempts to outline a mathematical theory
+for making a fundamental understanding of these mechanisms in white noise
+perturbed systems of ordinary differential equations, based on the study of
+stationary measures of the corresponding Fokker-Planck equations. New existence
+and non-existence results of stationary measures  will be presented by relaxing
+the notion of Lyapunov functions. Limiting behaviors of stationary measures as
+noises vanish will be discussed in connection to important issues such as
+stochastic stability and bifurcations.
+{% endblock %}
 
-<div class='abstract'>
-  Dynamical systems are often subjected to  noise perturbations either
-  from  external sources or  from their own intrinsic uncertainties.
-  While it is well believed that  noises can have dramatic effects on
-  the stability of a deterministic system at both local and global
-  levels, mechanisms behind noise surviving or robust dynamics have
-  not been well understood  especially from distribution perspectives.
-  This talk attempts to outline a mathematical theory for making a
-  fundamental understanding of these mechanisms in white noise
-  perturbed systems of ordinary differential equations, based on the
-  study of stationary measures of the corresponding Fokker-Planck
-  equations. New existence and non-existence results of stationary
-  measures  will be presented by relaxing the notion of Lyapunov
-  functions. Limiting behaviors of stationary measures as noises
-  vanish will be discussed in connection to important issues such as
-  stochastic stability and bifurcations.
-</div>
-
-{% if plenary[name][3] %}
-<img class="plenary-img" src="/static/images/plenary/{{ plenary[name][3] }}"></img>
-{% endif %}
-
-<div class="bio">
-  Yingfei Yi  obtained his B.S. degree in classical mechanics
-  from Jilin University in 1984 and his  Ph.D degree in applied mathematics
-  from the University of Southern California in 1990. His professional career
-  started at Georgia Institute of Technology,  first as a Postdoctoral Fellow
-  at the Center for Dynamical Systems and Nonlinear Studies from 1990-1992,
-  then at the School of Mathematics as an Assistant Professor from 1992-1997,
-  an Associate Professor from 1997-2000, and a Professor from 2000. He jointed
-  the Department of Mathematical and Statistical Sciences, the University of
-  Alberta in 2014 as a Killam Memorial Chair  in Dynamical Systems. He
-  received  a Rosenbaum Fellowship from the University of Cambridge  in 1995, a
-  University Research Fellowship from Jilin University in 1998, an Outstanding
-  Young Scientist Award from NSFC in 2004, a Changjiang Scholarship from  MoE,
-  China and Li Ka Shing Foundation in 2008, and  a Chinese National Qianren
-  Research Chair  Professorship in 2009 from MoE, China. He is a Co-editor in
-  Chief for the Journal of Dynamics and Differential Equations, a handling
-  editor for the Journal of Differential Equations, an editor for the
-  Proceedings of the American Mathematical Society, an editor for the SIAM
-  DSweb Magazine, and he is also  an associate editor or a member of editorial
-  board of three other professional journals. His  research interests lie in
-  dynamical systems and qualitative theory of differential equations.
-</div>
-
+{% block bio %}
+Yingfei Yi  obtained his B.S. degree in classical mechanics
+from Jilin University in 1984 and his  Ph.D degree in applied mathematics
+from the University of Southern California in 1990. His professional career
+started at Georgia Institute of Technology,  first as a Postdoctoral Fellow
+at the Center for Dynamical Systems and Nonlinear Studies from 1990-1992,
+then at the School of Mathematics as an Assistant Professor from 1992-1997,
+an Associate Professor from 1997-2000, and a Professor from 2000. He jointed
+the Department of Mathematical and Statistical Sciences, the University of
+Alberta in 2014 as a Killam Memorial Chair  in Dynamical Systems. He
+received  a Rosenbaum Fellowship from the University of Cambridge  in 1995, a
+University Research Fellowship from Jilin University in 1998, an Outstanding
+Young Scientist Award from NSFC in 2004, a Changjiang Scholarship from  MoE,
+China and Li Ka Shing Foundation in 2008, and  a Chinese National Qianren
+Research Chair  Professorship in 2009 from MoE, China. He is a Co-editor in
+Chief for the Journal of Dynamics and Differential Equations, a handling
+editor for the Journal of Differential Equations, an editor for the
+Proceedings of the American Mathematical Society, an editor for the SIAM
+DSweb Magazine, and he is also  an associate editor or a member of editorial
+board of three other professional journals. His  research interests lie in
+dynamical systems and qualitative theory of differential equations.
 {% endblock %}

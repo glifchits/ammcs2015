@@ -1,40 +1,31 @@
 ﻿{% extends 'plenary-speakers/_plenary.html' %}
-
-{% block plenaryspeaker %}
 {% set name='budd' %}
 
-<h2>Eight great reasons to do maths</h2>
+{% block title %}Eight great reasons to do maths{% endblock %}
 
-<h3>{{ plenary[name][0] }} {{ plenary[name][1] }} ({{ plenary[name][2] }})</h3>
+{% block abstract %}
+The UK government has identified 8 great technologies which it believes will
+lead the advancement of science and technology into the future.  Mathematics
+underpins all of these and developments of mathematics will be the engine for
+future growth in all of them. In this talk I will describe the 8 technologies
+and look at some of the maths behind them, from Big Data through to Energy.
+{% endblock %}
 
-<div class='abstract'>
-  The UK government has identified 8 great technologies which it believes
-  will lead the advancement of science and technology into the future.
-  Mathematics underpins all of these and developments of mathematics will be
-  the engine for future growth in all of them. In this talk I will describe
-  the 8 technologies and look at some of the maths behind them, from Big Data
-  through to Energy.
-</div>
-
-<img class="plenary-img" src="/static/images/plenary/{{ plenary[name][3] }}"></img>
-
-<div class="bio">
-  <!-- from http://www.bath.ac.uk/math-sci/contacts/academics/chris-budd/ -->
-  I have broad research interests in interdisciplinary industrial and applied
-  mathematics with a particular interest in complex nonlinear problems arising
-  in real applications. Typically these involve the solution (analytically or
-  numerically) of partial differential equations. A large amount of my work for
-  the last ten years has been in numerical weather prediction and data
-  assimilation in close collaboration with the Met Office (which I visit very
-  frequently). My algorithms are now incorporated into the Met Office
-  operational weather forecasting code where they have made a significant
-  difference to their accuracy and received a Knowledge Transfer Award. I am
-  also working on climate modelling using modern mathematical and computational
-  methods and am actively involved in a number of international climate
-  modelling networks, including CliMathNet which I co-direct and the Maths of
-  Planet Earth programme. I also collaborate with the energy industry, the
-  aerospace industry, the telecommunications industry and the food industry.
-  Anywhere that maths can be applied is of interest to me.
-</div>
-
+{% block bio %}
+<!-- from http://www.bath.ac.uk/math-sci/contacts/academics/chris-budd/ -->
+I have broad research interests in interdisciplinary industrial and applied
+mathematics with a particular interest in complex nonlinear problems arising in
+real applications. Typically these involve the solution (analytically or
+numerically) of partial differential equations. A large amount of my work for
+the last ten years has been in numerical weather prediction and data
+assimilation in close collaboration with the Met Office (which I visit very
+frequently). My algorithms are now incorporated into the Met Office operational
+weather forecasting code where they have made a significant difference to their
+accuracy and received a Knowledge Transfer Award. I am also working on climate
+modelling using modern mathematical and computational methods and am actively
+involved in a number of international climate modelling networks, including
+CliMathNet which I co-direct and the Maths of Planet Earth programme. I also
+collaborate with the energy industry, the aerospace industry, the
+telecommunications industry and the food industry.  Anywhere that maths can be
+applied is of interest to me.
 {% endblock %}

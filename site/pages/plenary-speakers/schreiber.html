@@ -1,33 +1,17 @@
 ﻿{% extends 'plenary-speakers/_plenary.html' %}
-
-{% block plenaryspeaker %}
 {% set name='schreiber' %}
 
-<h2>TBA</h2>
-
-<h3>{{ plenary[name][0] }} {{ plenary[name][1] }} ({{ plenary[name][2] }})</h3>
-
-<div class='abstract'>
-  TBA
-</div>
-
-{% if plenary[name][3] %}
-<img class="plenary-img" src="/static/images/plenary/{{ plenary[name][3] }}"></img>
-{% endif %}
-
-<div class="bio">
-  Sebastian J. Schreiber is a Professor of Ecology and Evolution and member of
-  the Center of Population Biology at the University of California, Davis. Prior
-  to coming to Davis, he was an Associate Professor of Mathematics at the College
-  of William and Mary and Western Washington University. Professor Schreiber’s
-  research on the development and application of methods in stochastic processes
-  and nonlinear dynamics to ecology, evolution, and epidemiology has been
-  supported by grants from the U.S. National Science Foundation, the U.S.
-  National Oceanic and Atmospheric Administration, the Bureau for Land
-  Management, and the U.S. Fisheries and Wildlife Service. He has authored nearly
-  eighty scientific papers in peer-reviewed mathematics and biology journals.
-  Professor Schreiber is currently on the editorial boards of five research
-  journals including Ecology and the Journal of Mathematical Biology.
-</div>
-
+{% block bio %}
+Sebastian J. Schreiber is a Professor of Ecology and Evolution and member of
+the Center of Population Biology at the University of California, Davis. Prior
+to coming to Davis, he was an Associate Professor of Mathematics at the College
+of William and Mary and Western Washington University. Professor Schreiber’s
+research on the development and application of methods in stochastic processes
+and nonlinear dynamics to ecology, evolution, and epidemiology has been
+supported by grants from the U.S. National Science Foundation, the U.S.
+National Oceanic and Atmospheric Administration, the Bureau for Land
+Management, and the U.S. Fisheries and Wildlife Service. He has authored nearly
+eighty scientific papers in peer-reviewed mathematics and biology journals.
+Professor Schreiber is currently on the editorial boards of five research
+journals including Ecology and the Journal of Mathematical Biology.
 {% endblock %}
