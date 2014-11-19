@@ -1,10 +1,10 @@
-var gulp = require('gulp'),
-	watch = require('gulp-watch'),
-	sass = require('gulp-sass'),
-	imageResize = require('gulp-image-resize'),
-	rename = require('gulp-rename'),
-	run = require('gulp-run'),
-	connect = require('gulp-connect');
+var gulp = require('gulp');
+var watch = require('gulp-watch');
+var sass = require('gulp-sass');
+var imageResize = require('gulp-image-resize');
+var rename = require('gulp-rename');
+var run = require('gulp-run');
+var connect = require('gulp-connect');
 
 
 gulp.task('images', function() {
