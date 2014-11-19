@@ -34,7 +34,8 @@ plenary = {
     "yi": ('Yingfei', 'Yi', 'University of Alberta', 'Yingfei-Yi.jpg'),
     "oosterlee": ('Kees', 'Oosterlee', 'Delft University of Technology and CWI', 'oosterlee.jpg'),
     "schreiber": ('Sebastian', 'Schreiber', 'University of California, Davis', 'schreiber.jpg'),
-    "albert": (u'Réka', 'Albert', 'Pennsylvania State University', 'albert.png')
+    "albert": (u'Réka', 'Albert', 'Pennsylvania State University', 'albert.png'),
+    "liu": ('Wing Kam', 'Liu', 'Northwestern University', 'liu.jpg')
 }
 
 plenary_as_list = [ (key,) + plenary[key] for key in plenary.keys() ]
