@@ -8,6 +8,14 @@
   li {
     list-style: none;
   }
+
+  ul.students {
+    li {
+      display: inline-block;
+      width: 45%;
+      margin-right: 10px;
+    }
+  }
 }
 
 .venue-accommodation {

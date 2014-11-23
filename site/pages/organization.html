@@ -39,7 +39,7 @@
 </ul>
 
 <h2>AMMCS-CAIMS2015 Students Team </h2>
-<ul>
+<ul class="students">
   {% for (first, last, inst) in committee.students|sort(attribute=1) %}
   <li>{{ first }} {{ last }} ({{ inst }})</li>
   {% endfor %}

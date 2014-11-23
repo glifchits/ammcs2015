@@ -18,7 +18,7 @@ gulp.task('images', function() {
 });
 
 gulp.task('styles', function() {
-	gulp.src('static/scss/*.scss')
+	gulp.src('static/scss/styles.scss')
 		.pipe(sass())
 		.pipe(gulp.dest('static/css'));
 });

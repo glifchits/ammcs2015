@@ -85,7 +85,27 @@ class committee:
 
     students = (
         ('Igor', 'Ivashev', 'WLU, Waterloo'),
-        ('Kenneth', 'Onuma', 'WLU, Waterloo')
+        ('Kenneth', 'Onuma', 'WLU, Waterloo'),
+        ('Alexander', 'Howse', 'UW, Waterloo'),
+        ('Alysha', 'Ahlin', 'WLU, Waterloo'),
+        ('Amenda', 'Chow', 'UW, Waterloo'),
+        ('Andrew', 'Harris', 'WLU, Waterloo'),
+        ('Anisha', 'Mahant', 'WLU, Waterloo'),
+        ('Asiya', 'Gul', 'WLU, Waterloo'),
+        ('Januka', 'Shanmugarajah', 'WLU, Waterloo'),
+        ('Katia', 'Mcdougall', 'WLU, Waterloo'),
+        ('Lorena', 'Cid Montiel', 'UW, Waterloo'),
+        ('Maryo', 'Ibrahim', 'WLU, Waterloo'),
+        ('Mbika', 'Nfor', 'WLU, Waterloo'),
+        ('Nilam', 'Lakhani', 'WLU, Waterloo'),
+        ('Philip', 'McCarthy', 'UW, Waterloo'),
+        ('Saqif', 'Abdullah', 'WLU, Waterloo'),
+        ('Shada', 'Tabet', 'WLU, Waterloo'),
+        ('Shazma', 'Ameen', 'WLU, Waterloo'),
+        ('Syeda', 'Hussain', 'WLU, Waterloo'),
+        ('Yuchen', 'Zhu', 'WLU, Waterloo'),
+        ('Zaa', 'Balasubramaniam', 'WLU, Waterloo'),
+        ('Zahra', 'Fotovatnia', 'WLU, Waterloo')
     )
 
 
