@@ -1,27 +1,42 @@
 ﻿{% extends 'plenary-speakers/_plenary.html' %}
 {% set name='mallat' %}
 
+{% block title %}
+Learning in High Dimension: from Images to Quantum Chemistry
+{% endblock %}
+
+{% block abstract %}
+Learning from data means approximating functionals in high dimensional spaces.
+Finding strong sources of regularity is necessary to avoid the curse of
+dimensionality.  Invariance to action of small groups such as rigid
+displacements is too weak, but stability to action of diffeomorphims is a much
+stronger property, statisfied by many physical functionals and most signal and
+image classification problems. We show that it is sufficient to approximate
+complex high-dimensional classification and regression functionals.
+</p><p>
+We introduce scattering operators, which are invariants to low-dimensional Lie
+groups, and Lipschitz continuous to actions of diffeomorphisms. They are
+computed with iterated multiscale wavelet transforms. These scattering
+operators provide a Euclidean embedding of geometric distances and a
+representation of stationary random processes, which captures intermittency
+phenomena. Applications will be shown for several image classification
+problems, and for learning quantum chemistry energy functionals.
+{% endblock %}
+
 {% block bio %}
-<!-- from http://en.wikipedia.org/wiki/St%C3%A9phane_Mallat -->
-Stéphane G. Mallat (born in Paris, France) made some fundamental contributions
-to the development of wavelet theory in the late 1980s and early 1990s. He has
-also done work in applied mathematics, signal processing, music synthesis and
-image segmentation.
-<br/>
-Specifically, he collaborated with Yves Meyer to develop the Multiresolution
-Analysis (MRA) construction for compactly supported wavelets, which made the
-implementation of wavelets practical for engineering applications by
-demonstrating the equivalence of wavelet bases and conjugate mirror filters
-used in discrete, multirate filter banks in signal processing. He also
-developed (with Sifen Zhong) the Wavelet transform modulus maxima method for
-image characterization, a method that uses the local maxima of the wavelet
-coefficients at various scales to reconstruct images.
-<br/>
-He introduced the scattering transform that constructs invariance for object
-recognition purposes. Mallat is the author of <i>A Wavelet Tour of Signal
-Processing</i>, a common text in some applied mathematics and engineering
-courses.
-<br/>
-He has taught at New York University, Massachusetts Institute of Technology,
-Tel Aviv University, École polytechnique and at the Ecole normale supérieure.
+Stéphane Mallat received the Ph.D. degree in electrical engineering from the
+University of Pennsylvania, in 1988. He was then Professor at the Courant
+Institute of Mathematical Sciences. In 1995, he became Professor in Applied
+Mathematics at Ecole Polytechnique, Paris. From 2001 to 2007 he was co-founder
+and CEO of a semiconductor start-up company. In 2012 he joined the Computer
+Science Department of Ecole Normale Supérieure, in Paris.
+<p></p>
+Stéphane Mallat’s research interests include signal processing, computer
+vision, harmonic analysis and learning. He wrote a “Wavelet tour of signal
+processing: the sparse way”. In 1997, he received the Outstanding Achievement
+Award from the SPIE Society and was a plenary lecturer at the International
+Congress of Mathematicians in 1998. He also received the 2004 European IST
+Grand prize, the 2004 INIST-CNRS prize for most cited French researcher in
+engineering and computer science, and the CNRS innovation medal in 2014. He was
+elected at the French Academy of Sciences in 2014.
 {% endblock %}
