@@ -62,7 +62,8 @@ sessions = [
     ('msmb', 'ss', 'Modeling & Simulation in Medicine and Biology',
         (
             'Suzanne Shontz (University of Kansas)',
-            'Corina Drapaca (Penn State University)'
+            'Corina Drapaca (Penn State University)',
+            'Siv Sivaloganathan (U of Waterloo)'
         )
     ),
     ('mmnn', 'ss', 'Mathematical Models for Nanoscience and Nanotechnology',
