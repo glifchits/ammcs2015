@@ -1,6 +1,12 @@
 # -*- coding: utf-8 -*-
 
 sessions = [
+    ('gta', 'ss', 'Game theory and applications',
+        (
+            'Monica Cojocaru (University of Guelph)',
+            'Safia Athar (University of Guelph)'
+        )
+    ),
     ('tba1', 'ss', 'Title TBA',
         (
             'Dimitri Vvedensky (Imperial College London)',
