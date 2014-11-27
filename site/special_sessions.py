@@ -1,6 +1,12 @@
 # -*- coding: utf-8 -*-
 
 sessions = [
+    ('iacfd', 'ss', 'Immersing Approches in Computational Fluid Dynamics',
+        (
+            'Lakhdar Remaki (Basque Center for Applied Mathematics)',
+            u'François Morency (École de technologie supérieure)'
+        )
+    ),
     ('gta', 'ss', 'Game theory and applications',
         (
             'Monica Cojocaru (University of Guelph)',
