@@ -14,7 +14,11 @@
 
 <h1>Minisymposium (ID: {{ stype|upper }}-{{ code|upper }})</h1>
 <h2>{{ title }}</h2>
-<h3>Organizers: {{ orgs|natural_list }}</h3>
+<h3>
+  {% for org in orgs %}
+  <span>{{ org }}{% if loop.index != orgs|length %}, {% endif %}</span>
+  {% endfor %}
+</h3>
 
 <p class='abstract'>
 {% block abstract %}
