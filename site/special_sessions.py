@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 sessions = [
-    ('iacfd', 'ss', 'Immersing Approches in Computational Fluid Dynamics',
+    ('iacfd', 'ss', 'Immersing Approaches in Computational Fluid Dynamics',
         (
             'Lakhdar Remaki (Basque Center for Applied Mathematics)',
             u'François Morency (École de technologie supérieure)'
