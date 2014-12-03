@@ -1,6 +1,12 @@
 # -*- coding: utf-8 -*-
 
 sessions = [
+    ('gls', 'ss', 'Geocomputational landscapes and spaces',
+        (
+            'Steven A. Roberts (WLU, Waterloo)',
+            'Colin Robertson (WLU, Waterloo)'
+        )
+    ),
     ('iacfd', 'ss', 'Immersing Approaches in Computational Fluid Dynamics',
         (
             'Lakhdar Remaki (Basque Center for Applied Mathematics)',
