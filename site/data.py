@@ -84,6 +84,7 @@ class committee:
     )
 
     students = (
+        ('Krishan', 'Rajaratnam', 'UW, Waterloo'),
         ('Igor', 'Ivashev', 'WLU, Waterloo'),
         ('Kenneth', 'Onuma', 'WLU, Waterloo'),
         ('Alexander', 'Howse', 'UW, Waterloo'),
@@ -93,7 +94,7 @@ class committee:
         ('Anisha', 'Mahant', 'WLU, Waterloo'),
         ('Asiya', 'Gul', 'WLU, Waterloo'),
         ('Januka', 'Shanmugarajah', 'WLU, Waterloo'),
-        ('Katia', 'Mcdougall', 'WLU, Waterloo'),
+        ('Katia', 'McDougall', 'WLU, Waterloo'),
         ('Lorena', 'Cid Montiel', 'UW, Waterloo'),
         ('Maryo', 'Ibrahim', 'WLU, Waterloo'),
         ('Mbika', 'Nfor', 'WLU, Waterloo'),
