@@ -105,7 +105,7 @@ class committee:
         ('Shazma', 'Ameen', 'WLU, Waterloo'),
         ('Syeda', 'Hussain', 'WLU, Waterloo'),
         ('Yuchen', 'Zhu', 'WLU, Waterloo'),
-        ('Zaa', 'Balasubramaniam', 'WLU, Waterloo'),
+        ('Zaamilah', 'Balasubramaniam', 'WLU, Waterloo'),
         ('Zahra', 'Fotovatnia', 'WLU, Waterloo')
     )
 
