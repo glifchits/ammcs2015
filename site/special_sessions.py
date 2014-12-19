@@ -1,6 +1,13 @@
 # -*- coding: utf-8 -*-
 
 sessions = [
+    ('ctsteme', 'ss',
+        'Computational Thinking and STEM in 21st Century Education',
+        (
+            'Julie Mueller (WLU, Waterloo)',
+            'Hasan Shodiev (WLU, Waterloo)'
+        )
+    ),
     ('gls', 'ss', 'Geocomputational landscapes and spaces',
         (
             'Steven A. Roberts (WLU, Waterloo)',
