@@ -1,6 +1,12 @@
 # -*- coding: utf-8 -*-
 
 sessions = [
+    ('cnt', 'ss', 'Computational Number Theory',
+        (
+            'Chester Weatherby (WLU, Waterloo)',
+            'Kevin Hare (U of Waterloo)'
+        )
+    ),
     ('ctsteme', 'ss',
         'Computational Thinking and STEM in 21st Century Education',
         (
