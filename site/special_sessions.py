@@ -32,9 +32,10 @@ sessions = [
             'Safia Athar (University of Guelph)'
         )
     ),
-    ('tba1', 'ss', 'Title TBA',
+    ('mmhp', 'ss', 'Mathematics and models of the human placenta',
         (
             'Dimitri Vvedensky (Imperial College London)',
+            'Simon Morgan (Imperial College London)'
         )
     ),
     ('tba2', 'ss', 'Title TBA',
