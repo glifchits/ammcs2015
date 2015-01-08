@@ -51,6 +51,7 @@ sessions = [
     ),
     ('fcp', 'ss', 'Fractional Calculus and Probability',
         (
+            u'József Lörinczi (Loughborough University)',
             'Mark M. Meerschaert (Michigan State University)',
             'Enrico Scalas (University of Sussex)'
         )
