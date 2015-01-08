@@ -1,42 +1,70 @@
 ﻿{% extends 'plenary-speakers/_plenary.html' %}
 {% set name='liu' %}
 
+{% block title %}
+Multiscale Modeling of Soft Materials and Related Biological Responses
+{% endblock %}
+
+{% block abstract %}
+Liquids, polymers, gels, foams and a number of biological materials are soft
+materials, which can be easily deformed by thermal stress or thermal
+fluctuations. Predominate physical behaviors of these soft materials occur at
+energy scale comparable with room temperature thermal energy. These behaviors
+cannot be, or are not easily, to be directly predicted from its atomic or
+molecular constituents. This is because the soft materials are always
+self-assemble into mesoscopic structures, which are much larger than the
+microscopic scale, and yet much smaller than the macroscopic scale of these
+materials. Especially, the mechanical and physical properties of soft materials
+originate from the interplay of phenomena at different spatial and temporal
+scales. As such, it is necessary to adopt multiscale methods when dealing with
+soft materials in order to account for all important mechanisms. The offerings
+of this lecture are twofold: (1) establishing a multiscale modeling framework
+to predict viscoelastic behaviors of polymers through fractional derivatives,
+(2) rapid computational prototyping and testing of drug carriers in tumor
+microvasculature through immersed molecular finite element method (IMFEM). In
+(1), we have incorporated the fractional diffusion of free chains into the
+integration kernel for the viscoelastic response of polymers and polymer
+nanocomposites using the Mittag-Leffler function. While conventional models for
+viscoelastic materials employ a discrete relaxation spectrum, the
+fractional-order model exhibits a continuous relaxation distribution, which is
+in accordance with experimental observations. In (2), the IMFEM is used to
+simulate the whole blood including blood plasma, red blood cells and
+nanoparticles. We elucidate how the size, shape and stiffness of nanoparticles
+will affect their dispersions in the microvasculature, with the accurate
+molecular interactions informed by molecular mean-field theory.
+{% endblock %}
+
 {% block bio %}
-<!-- from http://www.tam.northwestern.edu/wkl/_wkl/htm/contributions.htm -->
-Professor Wing Kam Liu has made fundamental, innovative contributions to the
-theory and methodologies of multiscale simulation-based engineering and science
-and has applied a spectrum of atomistic, quantum, and continuum strategies
-towards the understanding and design of nano-materials, biological processes,
-and recently the use of organic and inorganic materials for drug delivery
-device, bio-sensing, and other diagnostic and therapeutic applications. He has
-published over 350 journal and proceedings articles. The impact of his research
-contributions is attested by the large number of citations to his work (as of
-August 2012, 11,000+ according to Institute for Scientific Information (ISI)
-with an H-factor of 54; 20,000 according to Google with an H-factor of 67). In
-2001 the Institute for Scientific Information (ISI) identified Professor Liu as
-“one of the most highly cited, influential researchers in Engineering, and an
-original member of the highly cited researchers database.”  His research
-results have been applied in nanomechanics and materials, materials design,
-surface engineering, manufacturing processes, computational fluid dynamics,
-fluid-structure interaction, bio- and nano-fluidics and medicine, biological
-cellular systems, safety analysis of nuclear reactors, seismic analysis, and
-probabilistic fracture and fatigue problemssor Wing Kam Liu has made
-fundamental, innovative contributions to the theory and methodologies of
-multiscale simulation-based engineering and science and has applied a spectrum
-of atomistic, quantum, and continuum strategies towards the understanding and
-design of nano-materials, biological processes, and recently the use of organic
-and inorganic materials for drug delivery device, bio-sensing, and other
-diagnostic and therapeutic applications. He has published over 350 journal and
-proceedings articles. The impact of his research contributions is attested by
-the large number of citations to his work (as of August 2012, 11,000+ according
-to Institute for Scientific Information (ISI) with an H-factor of 54; 20,000
-according to Google with an H-factor of 67). In 2001 the Institute for
-Scientific Information (ISI) identified Professor Liu as “one of the most
-highly cited, influential researchers in Engineering, and an original member of
-the highly cited researchers database.”  His research results have been applied
-in nanomechanics and materials, materials design, surface engineering,
-manufacturing processes, computational fluid dynamics, fluid-structure
-interaction, bio- and nano-fluidics and medicine, biological cellular systems,
-safety analysis of nuclear reactors, seismic analysis, and probabilistic
-fracture and fatigue problems.
+Dr. Wing Kam Liu, Walter P. Murphy Professor of Northwestern University, has
+made fundamental, innovative contributions to the theory, methodologies, and
+applications of multiscale simulations towards the understanding and design of
+nano-materials, polymers science, and multiresolution mechanics. His ISI and
+Google citations and H factors are (14,200, 60) and (37,750, 88), respectively.
+In 2014, Liu is selected as a highly cited researcher in Computer Science and a
+member of the World’s Most Influential Scientific Minds by Thompson Reuters.
+Liu developed new exceptional accuracy meshfree methods for simulation of
+extremely deformation of solids and fluids including additive manufacturing;
+fractional-order viscoelasticity polymer science; fluid-structure interaction,
+and applicable to medical imaging.  He was the PI of a multi-year multi-million
+research grant from Goodyear Tire and Rubber Company to develop and integrated
+design strategy to enable prediction, synthesis and characterization of new
+polymer nanocomposites to achieve enhanced performance. Liu is current the
+President of IACM and Chair of USNCTAM; Founding Director of the Summer
+Institute on Nano Mechanics and Materials; Founding Chair of the ASME
+NanoEngineering Council; Editors of Computational Mechanics &amp; Int. J. of
+Applied Mathematics and Mechanics; Honorary Editor of Int. J. of Computational
+Methods; serve on numerous editorial boards; Consultant to 20+ organizations.
+Liu has written three books; and he is a Fellow of ASME, ASCE, USACM, AAM, and
+IACM. Liu’s selected awards and honors including: 2014 Japan Society for
+Computational Engineering and Science Grand Prize in recognition of his
+outstanding contributions in the field of computational mechanics; the Honorary
+Professorship from Dalian University of Technology in 2013; the  2012 IACM
+Gauss-Newton Medal; the 2012 ASME Design Automation Conference Best Paper
+Award; the 2009 ASME Dedicated Service Award, the 2007 ASME Robert Henry
+Thurston Lecture Award, the 2007 USACM John von Neumann Medal, the 2004 JSME
+Computational Mechanics Award, the 2002 IACM Computational Mechanics Award, the
+2001 USACM Computational Structural Mechanics Award, the 1995 ASME Gustus L.
+Larson Memorial Award, the 1985 ASME Pi Tau Sigma Gold Medal, the 1979 ASME
+Melville Medal, the 1989 Thomas J. Jaeger Prize of the ISMIRT, and the 1983
+Ralph R. Teetor Educational Award, American Society of Automotive Engineers.
 {% endblock %}
