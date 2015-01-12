@@ -1,6 +1,12 @@
 # -*- coding: utf-8 -*-
 
 sessions = [
+    ('tmn', 'ss', 'Topics in Mathematical Neuroscience',
+        (
+            'Lydia Bilinsky (Duke University)',
+            'Priscilla Greenwood (Duke University)'
+        )
+    ),
     ('wpa', 'ss', 'Wave Propagation and Applications',
         (
             'Eduard Kirr (University of Illinois at Urbana-Champaign)',
