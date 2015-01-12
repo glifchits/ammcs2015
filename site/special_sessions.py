@@ -1,6 +1,13 @@
 # -*- coding: utf-8 -*-
 
 sessions = [
+    ('wpa', 'ss', 'Wave Propagation and Applications',
+        (
+            'Eduard Kirr (University of Illinois at Urbana-Champaign)',
+            'Nicolae Tarfulea (Purdue University Calumet)',
+            'Catalin Turc (New Jersey Institute of Technology)'
+        )
+    ),
     ('cnt', 'ss', 'Computational Number Theory',
         (
             'Chester Weatherby (WLU, Waterloo)',
