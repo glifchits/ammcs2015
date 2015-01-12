@@ -13,7 +13,7 @@
 {% set stype=sess_by_code[code][2] %}
 
 <h1>Minisymposium (ID: {{ stype|upper }}-{{ code|upper }})</h1>
-<h2>{{ title }}</h2>
+<h2>{{ title|title }}</h2>
 <h3>
   {% for org in orgs %}
   <span>{{ org }}{% if loop.index != orgs|length %}, {% endif %}</span>
@@ -23,7 +23,7 @@
 <p class='abstract'>
 {% block abstract %}
 {% endblock %}
-</p> 
+</p>
 </div>
 
 <hr>
