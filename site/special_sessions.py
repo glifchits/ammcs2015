@@ -1,6 +1,12 @@
 # -*- coding: utf-8 -*-
 
 sessions = [
+    ('ebmsahs', 'ss', 'Equation-Based Modeling: Structural Analysis and Hybrid Systems',
+        (
+            'Ned Nedialkov (McMaster University)',
+            'John Pryce (Cardiff University)'
+        )
+    ),
     ('tmn', 'ss', 'Topics in Mathematical Neuroscience',
         (
             'Lydia Bilinsky (Duke University)',
