@@ -1,6 +1,13 @@
 # -*- coding: utf-8 -*-
 
 sessions = [
+    ('daso', 'ss', 'Data Analytics for System Optimization',
+        (
+            'Jianhong Wu (York University)',
+            'Jimmy Huang (York University)',
+            'Wenying Feng (Trent University)'
+        )
+    ),
     ('ebmsahs', 'ss', 'Equation-Based Modeling: Structural Analysis and Hybrid Systems',
         (
             'Ned Nedialkov (McMaster University)',
