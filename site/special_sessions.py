@@ -1,6 +1,12 @@
 # -*- coding: utf-8 -*-
 
 sessions = [
+    ('cp', 'ss', 'Computational Physics',
+        (
+            'Alex Fedoseyev (CFD Research Corporation, USA)',
+            'Marek Wartak (WLU, Waterloo)'
+        )
+    ),
     ('daso', 'ss', 'Data Analytics for System Optimization',
         (
             'Jianhong Wu (York University)',
