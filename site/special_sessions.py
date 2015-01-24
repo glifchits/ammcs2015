@@ -58,10 +58,11 @@ sessions = [
             u'François Morency (École de technologie supérieure)'
         )
     ),
-    ('gta', 'ss', 'Game theory and applications',
+    ('gta', 'ss', 'Game Theory: Applications and Evolutionary Games',
         (
             'Monica Cojocaru (University of Guelph)',
-            'Safia Athar (University of Guelph)'
+            'Joe Apaloo (St. Francis Xavier)',
+            'Ross Cressman (WLU, Waterloo)'
         )
     ),
     ('mmhp', 'ss', 'Mathematics and models of the human placenta',
