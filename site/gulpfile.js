@@ -8,38 +8,39 @@ var connect = require('gulp-connect');
 
 
 gulp.task('images', function() {
-	gulp.src('static/images/plenary/*')
-		.pipe(imageResize({
-			width: 170,
-			height: 170,
-			upscale: false
-		}))
-		.pipe(gulp.dest('static/images/plenary/thumbs'));
+  gulp.src('static/images/plenary/*')
+    .pipe(imageResize({
+      width: 170,
+      height: 170,
+      upscale: false
+    }))
+    .pipe(gulp.dest('static/images/plenary/thumbs'));
 });
 
 gulp.task('styles', function() {
-	gulp.src('static/scss/styles.scss')
-		.pipe(sass())
-		.pipe(gulp.dest('static/css'));
+  gulp.src('static/scss/styles.scss')
+    .pipe(sass())
+    .pipe(gulp.dest('static/css'))
+    .pipe(gulp.dest('build/static/css'));
 });
 
 gulp.task('freeze', function() {
-	run('python ./freezer.py').exec();
+  run('python ./freezer.py').exec();
 });
 
 gulp.task('serve', function() {
-	connect.server({
-		root: 'build',
-		livereload: true,
-		port: 5000
-	});
+  connect.server({
+    root: 'build',
+    livereload: true,
+    port: 5000
+  });
 });
 
 gulp.task('default', ['styles', 'images', 'freeze', 'serve'], function() {
-	gulp.watch('static/scss/*.scss', function(evt) {
-		gulp.run('styles');
-	});
-	gulp.watch(['**/*.py', 'pages/**/*.html'], function() {
-		gulp.run('freeze');
-	});
+  gulp.watch('static/scss/*.scss', function(evt) {
+    gulp.run('styles');
+  });
+  gulp.watch(['**/*.py', 'pages/**/*.html'], function() {
+    gulp.run('freeze');
+  });
 });
