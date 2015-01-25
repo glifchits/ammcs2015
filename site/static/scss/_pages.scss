@@ -25,6 +25,23 @@
 }
 
 .special-sessions {
+
+  ul#session-shortlist {
+    padding: 0;
+    list-style: none;
+    line-height: 14px;
+
+    li {
+      display: inline-block;
+      border: 1px solid #bbb;
+      border-radius: 2px;
+      font-size: 11px;
+      line-height: 11px;
+      padding: 2px;
+      margin: 1px 0;
+    }
+  }
+
   h3 span {
     display: inline-block;
   }
