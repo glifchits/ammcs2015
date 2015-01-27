@@ -72,7 +72,7 @@ sessions = [
             'Ross Cressman (WLU, Waterloo)'
         )
     ),
-    ('mmhp', 'ss', 'Mathematics and models of the human placenta',
+    ('mmhp', 'ss', 'The Human Placenta: Data Acquisition, Analysis, and Modeling',
         (
             'Dimitri Vvedensky (Imperial College London)',
             'Simon Morgan (Imperial College London)'
