@@ -43,7 +43,8 @@ sessions = [
     ('cnt', 'ss', 'Computational Number Theory',
         (
             'Chester Weatherby (WLU, Waterloo)',
-            'Kevin Hare (U of Waterloo)'
+            'Kevin Hare (U of Waterloo)',
+            'Renate Scheidler (University of Calgary)'
         )
     ),
     ('ctsteme', 'ss',
