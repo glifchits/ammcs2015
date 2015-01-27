@@ -1,6 +1,13 @@
 # -*- coding: utf-8 -*-
 
 sessions = [
+    ('ralsmcl', 'ss', 'Recent Advances in Lie Symmetry Methods and Conservation Laws for Differential Equations and Applications',
+        (
+            'M. Abudiab (Texas A&M University, USA)',
+            'C.M. Khalique (North-West University, USA)',
+            'M.L. Gandarias (Universidad de Cadiz, Spain)'
+        )
+    ),
     ('cp', 'ss', 'Computational Physics',
         (
             'Alex Fedoseyev (CFD Research Corporation, USA)',
