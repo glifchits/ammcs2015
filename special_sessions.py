@@ -54,7 +54,7 @@ sessions = [
             'Hasan Shodiev (WLU, Waterloo)'
         )
     ),
-    ('gls', 'ss', 'Geocomputational landscapes and spaces',
+    ('gls', 'ss', 'Geocomputational Landscapes and Spaces',
         (
             'Steven A. Roberts (WLU, Waterloo)',
             'Colin Robertson (WLU, Waterloo)'
@@ -84,7 +84,7 @@ sessions = [
             'Styliani Consta (Western University)',
         )
     ),
-    ('ddmds', 'ss', 'Data-driven methods for dynamical systems',
+    ('ddmds', 'ss', 'Data-Driven Methods for Dynamical Systems',
         (
             'Dimitris Giannakis (New York University)',
             'Tyrus Berry (Penn State University)'
@@ -186,14 +186,14 @@ sessions = [
             'Connell McCluskey (WLU, Waterloo)'
         )
     ),
-    ('aads', 'st', 'Applied analysis and dynamical systems',
+    ('aads', 'st', 'Applied Analysis and Dynamical Systems',
         (
             'Xingfu Zou (UWO)',
             'Dmitry Pelinovsky (McMaster)',
             'David Iron (Dalhousie)'
         )
     ),
-    ('acm', 'st', 'Applied and computational mechanics',
+    ('acm', 'st', 'Applied and Computational Mechanics',
         (
             'Marek Stastna (U of Waterloo)',
             'Bartek Protas (McMaster)',
