@@ -17,7 +17,7 @@
 <b>Quick view</b> <span>(click to jump to the session info)</span>
 <ul id="session-shortlist">
   {% for code, _, name, _ in sessions %}
-  <li><a href="#{{ code }}">{{ name|title }}</a></li>
+  <li><a href="#{{ code }}">{{ name }}</a></li>
   {% endfor %}
 </ul>
 
@@ -25,7 +25,7 @@
   {% for code, session_type, title, org in sessions %}
   <li id="{{ code }}">
     <span class="id"> {{ session_type|upper }}-{{ code|upper }} </span>
-    <span class="title"> <a href="/special-sessions/{{ code }}/">{{ title|title }}</a> </span>
+    <span class="title"> <a href="/special-sessions/{{ code }}/">{{ title }}</a> </span>
     <div> {{ org|natural_list }} </div>
   </li>
   {% endfor %}
