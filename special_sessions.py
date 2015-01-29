@@ -79,7 +79,7 @@ sessions = [
             'Simon Morgan (Imperial College London)'
         )
     ),
-    ('tba2', 'ss', 'Title TBA',
+    ('cmpmc', 'ss', 'Computational Methods in Physical and Macromolecular Chemistry',
         (
             'Styliani Consta (Western University)',
         )
