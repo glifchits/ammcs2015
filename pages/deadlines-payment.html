@@ -26,7 +26,9 @@
     <li> Professor Emeritus: $150 </li>
     <li> Students: $100 </li>
     <li> Accompanying person: $100 </li>
-    <li> Conference banquet (to be held on Thursday): $70 </li>
+    <li> Congress banquet (to be held on Thursday): $70 </li>
+    <li> CFDSC<a class="footnote-btn" href="#footnote-1">*</a> regular participant: $400 </li>
+    <li> CFDSC<a class="footnote-btn" href="#footnote-1">*</a> student/postdoctoral fellow: $200 </li>
   </ul>
 </p>
 
@@ -36,7 +38,7 @@
   <ol>
     <li>
       After {{ reg_deadline }} registration fees increase by $50 in each of the
-      above six categories of participants.
+      above eight categories of participants.
     </li>
     <li>
       IMPORTANT: To be included in the program, all authors presenting their
@@ -50,7 +52,7 @@
     <li>
       Full refund of registration fees can be made only prior to April 15, 2015
       and 50% refund until April 30, 2015 (minus credit card surcharge, the
-      conference treasurer can be contacted at 
+      conference treasurer can be contacted at
       <a href='mailto:zwang@wlu.ca'>zwang@wlu.ca</a>).
       No refund can be made after this date.
     </li>
@@ -61,5 +63,34 @@
     </li>
   </ol>
 </p>
+
+<span class="footnote" id="footnote-1">CFDSC registration fees include the CFDSC banquet, held on Tuesday, and one lunch</span>
+
+<script type="text/javascript">
+  function each(array, callback) {
+    for (var i = 0; i < array.length; i++) {
+      callback(array[i]);
+    }
+  }
+  function clickhandler(id) {
+    var allFootnotes = document.getElementsByClassName('footnote');
+    each(allFootnotes, function(footnote) {
+      var bgColour = (footnote.id === id) ? 'yellow' : null;
+      footnote.style.backgroundColor = bgColour;
+      if (bgColour !== null) {
+        setTimeout(function() {
+          footnote.style.backgroundColor = null;
+        }, 1000);
+      }
+    });
+  }
+  var footnotes = document.getElementsByClassName('footnote-btn');
+  each(footnotes, function(footnote) {
+    footnote.onclick = function() {
+      var id = footnote.attributes.href.value.slice(1);
+      clickhandler(id);
+    }
+  });
+</script>
 
 {% endblock %}
