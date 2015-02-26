@@ -18,7 +18,7 @@
   within and outside of Canada. CAIMS•SCMAI is a member society of the
   International Council for Industrial and Applied Mathematics, which hosts the
   ICIAM Congresses every four years.  The first AMMCS meeting in 2011 was a
-  satellite event of this International Congress held in Vancouver. 
+  satellite event of this International Congress held in Vancouver.
 </p>
 <div class='pure-g'>
   <div class='pure-u-1-3'><img src='/static/images/welcome/2011opening.jpg'></div>
@@ -34,9 +34,16 @@
 </p>
 <p>
   It offers to researchers, industrialists, engineers and students to present
-  their latest research, to interact with the experts in the field, and to
-  foster interdisciplinary collaborations required to meet the challenges of
-  modern science, technology, and society.
+  their latest research, to interact with the experts in the field, and to foster
+  interdisciplinary collaborations required to meet the challenges of modern
+  science, technology, and society. The 2015 AMMCS-CAIMS Congress features also
+  the Annual Conference of the Computational Fluid Dynamics Society of Canada,
+  drawing together researchers in CFD to highlight recent advances and challenges
+  encountered in a broad spectrum of application areas and to facilitate
+  scientific and technical exchange. The CFD Society of Canada promotes research
+  in computational fluid dynamics and to provides a framework for communication
+  and collaboration between researchers, developers and practitioners, in
+  industry, government and academia.
 </p>
 <p>
   Located just west of Toronto in the Canada Research Triangle area, the city
@@ -55,36 +62,37 @@
 
 <div class="supporters">
   <div class="pure-g conf-logos">
-    <div class="pure-u-1-3">
+    <div class="pure-u-1-2">
       <a href="http://www.caims.ca/"><img src="/static/images/logo/caims1-big.jpg" /></a>
     </div>
-    <div class="pure-u-1-3">
+    <div class="pure-u-1-2">
       <a href="/"><img src="/static/images/logo/ammcs.png" /></a>
     </div>
     <div class="pure-u-1-3">
-      <a href="http://www.ms2discovery.wlu.ca/"><img src="/static/images/supporters/ms2discovery.png" /></a>
     </div>
   </div>
   <div class="pure-g supporter-logos">
     {% for src, href in [
+      ("ms2discovery.png", "http://www.ms2discovery.wlu.ca/"),
       ('Logo5-Fields.jpg', 'http://www.fields.utoronto.ca/'),
       ('Logo3-Sharcnet.jpg', 'https://www.sharcnet.ca/'),
       ('maplesoft_logo.jpg', 'http://www.maplesoft.com/'),
       ('crm-logo.png', 'http://www.crm.umontreal.ca/')
     ] %}
-    <div class="pure-u-1-4 logo">
+    <div class="pure-u-1-5 logo">
       <a href="{{href}}"><img src="/static/images/supporters/{{ src }}"></a>
     </div>
     {% endfor %}
   </div>
   <div class="pure-g supporter-logos">
     {% for src, href in [
+      ('cfdcanada.png', 'http://www.cfdcanada.ca/'),
       ('AIMS_logo_Blue.jpg', "http://www.aimsciences.org/"),
       ('MprimeLogo.png', "http://www.mprime.ca/"),
       ('cooperation-SIAM.jpg', "http://www.siam.org/"),
       ('pims.png', "http://www.pims.math.ca/")
     ] %}
-    <div class="pure-u-1-4 logo">
+    <div class="pure-u-1-5 logo">
       <a href="{{href}}"><img src="/static/images/supporters/{{ src }}"></a>
     </div>
     {% endfor %}
