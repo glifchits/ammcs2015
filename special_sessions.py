@@ -8,7 +8,7 @@ sessions = [
             'M.L. Gandarias (Universidad de Cadiz, Spain)'
         )
     ),
-    ('cp', 'ss', 'Computational Physics',
+    ('cp', 'ss', 'Computational Photonics',
         (
             'Alex Fedoseyev (CFD Research Corporation, USA)',
             'Marek Wartak (WLU, Waterloo)'
