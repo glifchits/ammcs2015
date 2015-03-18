@@ -42,7 +42,8 @@ plenary = {
 }
 semi_plenary = {
     "hurd": ('Tom', 'Hurd', 'McMaster University', 'hurd.jpg'),
-    "kirr": ('Eduard-Wilhelm', 'Kirr', 'University of Illinois at Urbana-Champaign', 'kirr.jpg')
+    "kirr": ('Eduard-Wilhelm', 'Kirr', 'University of Illinois at Urbana-Champaign', 'kirr.jpg'),
+    "zaccour": ('Georges', 'Zaccour', u'École des Hautes Études commerciales de Montréal', 'zaccour.jpg')
 }
 
 plenary_as_list = [ (key,) + plenary[key] for key in plenary.keys() ]
