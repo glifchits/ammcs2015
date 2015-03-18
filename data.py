@@ -40,8 +40,13 @@ plenary = {
     "fischer": ('Paul', 'Fischer', 'U of Illinois', 'fischer.png'),
     "abgrall": (u'Rémi', 'Abgrall', u'University of Zurich', 'abgrall.jpg')
 }
+semi_plenary = {
+    "hurd": ('Tom', 'Hurd', 'McMaster University', 'hurd.jpg'),
+    "kirr": ('Eduard-Wilhelm', 'Kirr', 'University of Illinois at Urbana-Champaign', 'kirr.jpg')
+}
 
 plenary_as_list = [ (key,) + plenary[key] for key in plenary.keys() ]
+semi_plenary_as_list = [ (key,) + semi_plenary[key] for key in semi_plenary.keys() ]
 
 abstracts_link = 'https://www.conference-service.com/ammcs15/welcome.cgi'
 registration_link = 'https://events.mylaurier.ca/current.htm?action=registerStart&eventId=58'

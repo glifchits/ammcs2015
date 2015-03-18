@@ -1,3 +1,18 @@
-{% extends 'plenary-speakers/_speaker.html' %}
-{% set speaker_address = 'AMMCS-CAIMS 2015 Semi-Plenary Talk' -%}
+{% extends '_layout.html' %}
+
+{% set active_page = 'plenary-speakers' %}
+{% block body %}
+<div class='plenary-speaker'>
+  <h1>AMMCS-CAIMS 2015 Semi-Plenary Talk</h1>
+  <h2>{% block title %}TBA{% endblock %}</h2>
+  <h3>{{ semi_plenary[name][0] }} {{ semi_plenary[name][1] }} ({{ semi_plenary[name][2] }})</h3>
+  <div class="abstract">
+    {% block abstract %}TBA{% endblock %}
+  </div>
+  <img class="plenary-img" src="/static/images/plenary/thumbs/{{ semi_plenary[name][3] }}"></img>
+  <div class="bio">
+    {% block bio %}TBA{% endblock %}
+  </div>
+</div>
+{% endblock %}
 

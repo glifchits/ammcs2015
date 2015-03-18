@@ -15,7 +15,9 @@
 <p>Semi-plenary speakers at this conference include:</p>
 
 <ul>
-  <li>TBA</li>
+  {% for name, first, last, inst, _ in semi_plenary_as_list|sort(attribute=2) %}
+  <li><a href="{{name}}/">{{first}} {{last}}</a> ({{inst}})</li>
+  {% endfor %}
 </ul>
 
 {% endblock %}
