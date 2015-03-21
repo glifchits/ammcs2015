@@ -37,7 +37,7 @@ plenary = {
     "albert": (u'Réka', 'Albert', 'Pennsylvania State University', 'albert.png'),
     "liu": ('Wing Kam', 'Liu', 'Northwestern University', 'liu.jpg'),
     "mallat": (u'Stéphane', 'Mallat', 'Ecole Normale Superieure', 'mallat.jpg'),
-    "fischer": ('Paul', 'Fischer', 'University of Illinois', 'fischer.png'),
+    "fischer": ('Paul', 'Fischer', 'University of Illinois', 'fischer.jpg'),
     "abgrall": (u'Rémi', 'Abgrall', u'University of Zurich', 'abgrall.jpg')
 }
 semi_plenary = {
