@@ -1,15 +1,38 @@
 ﻿{% extends 'plenary-speakers/_plenary.html' %}
 {% set name='fischer' %}
 
+{% block title %}
+DNS/LES of Complex Turbulent Flows beyond Petascale
+{% endblock %}
 
-{% block bio %}
-Paul Fischer is a Blue Waters Professor at the University of Illinois,
-Urbana-Champaign  in the departments of Computer Science and Mechanical
-Science &amp; Engineering.  He received his Ph.D. in mechanical engineering
-from MIT and was a post-doc in applied mathematics at Caltech, where he
-was the first Center for Research in Parallel Computation fellow.  His
-work is in the area of high-order numerical methods for partial
-differential equations, scalable linear solvers, and high-performance
+
+{% block abstract %}
+Petascale computing platforms currently feature million-way parallelism and it
+is anticipated that exascale computers with billion-way concurrency will be
+deployed in the early 2020s. In this talk, we explore the potential of
+computing at these scales with a focus on turbulent fluid flow and heat
+transfer in a variety of applications including nuclear energy, combustion,
+oceanography, vascular flows, and astrophysics. Following Kreiss and Oliger
+’72, we argue that high-order methods are essential for scalable simulation of
+transport phenomena. We demonstrate that these methods can be realized at costs
+equivalent to those of low-order methods having the same number of gridpoints.
+We further show that, with care, efficient multilevel solvers having bounded
+iteration counts will scale to billion-way concurrency. Using data from
+leading-edge platforms over the past 25 years, we analyze the scalability of
+state-of-the-art solvers to predict parallel performance on exascale
+architectures. The analysis sheds light on the expected scope of exascale
+physics simulations and provides insight to design requirements for future
+algorithms, codes, and architectures.
+{% endblock %}
+
+
+{% block bio %} Paul Fischer is a Blue Waters Professor at the University of
+Illinois, Urbana-Champaign  in the departments of Computer Science and
+Mechanical Science &amp; Engineering.  He received his Ph.D. in mechanical
+engineering from MIT and was a post-doc in applied mathematics at Caltech,
+where he was the first Center for Research in Parallel Computation fellow.  His
+work is in the area of high-order numerical methods for partial differential
+equations, scalable linear solvers, and high-performance
 computing.  He is the architect of the open source SEM-based fluid
 dynamics/heat transfer code Nek5000, which has been recognized with the
 Gordon Bell Prize in high-performance computing and which has successfully
