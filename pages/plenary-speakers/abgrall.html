@@ -1,16 +1,59 @@
 ﻿{% extends 'plenary-speakers/_plenary.html' %}
 {% set name='abgrall' %}
 
+{% block title %}
+Recent progresses in the development of parameter free contnuous finite element
+methods for compressible fluids
+{% endblock %}
+
+
+{% block abstract %}
+In this talk, I will review the current status of the so-called residual
+distribution schemes applied, in particular, to compressible fluid dynamics
+problems. Other physical models include the Shallow Water equation and
+generalization, MHD, etc.
+</p><p>
+This schemes, after the early work of R. Ni at Bombardier, and the seminal work
+of P.L Roe, in particular his 1981 JCP paper and its extensions to scalar
+multidimensional schemes, can be considered as finite element methods of the
+streamline diffusion type.The emphasis is put on non-oscillatory properties, in
+order to be able to compute flow discontinuities, so that they are non linear
+by construction. Indeed shock capturing is done in a totally different manner
+as for stream line diffusion, allowing for a class of  parameter free schemes.
+In a way, the Residual Distribution methods  can be seen as a kind of
+compromise between high order TVD-like finite difference/finite volume  schemes
+and classical finite element methods, in that they borrow ideas from both
+communities: geometrical flexibility, the residual concept on one side, and non
+oscillatory, maximum principle on the other one.  In the talk, we will first
+consider the case of steady scalar hyperbolic problems, showing how one can
+systematically construct parameter free essentially non-oscillatory schemes.
+Then we will move towards steady advection diffusion problems, showing how
+uniform accuracy, whatever the Peclet/Reynolds number is. The last part of the
+talk will consider recent work on unsteady problems. Examples of compressible
+flows  (laminar and turbulent) will be also shown, in order to demonstrate the
+efficiency of the method, both in accuracy,  memory foot print and CPU time.
+</p><p>
+This is a joint work with many colleagues and students among whom Dante
+de Santis, Mario Ricchiuto, Algiane Froehly, Adam Larat, Mohamed Mezine at
+INRIA, and many discussions with H. Deconinck (VKI, Belgium) as well as Phil
+Roe (Michigan, USA). This work has been funded by several EU contracts: the FP6
+ADIGMA project (contract AST5-CT-2006-030719), the FP7 IDIHOM project (contract
+AAT-2010-RTD-1-265780) and the ERC Advanced Grant ADDECCO (contract #226316),
+as well as a grant of the Swiss National Fund.
+{% endblock %}
+
+
+
 {% block bio %}
-Rémi Abgrall is a former student of Ecole Normale Supérieure de Saint Cloud.
-After his PhD, he has been engineer at ONERA, then research scientist at INRIA.
-Since January 2014, he is professor at the University of Zürich, Institute of
-Mathematics, after having been Professor in the University of Bordeaux
-(Institut Polytechnique de Bordeaux)  since 1996 and in secondment at INRIA
-from 2008 till the end of 2013. He has been awarded an Advanced Research Grant
-from the ERC in December 2008 and has been invited speaker at the
-International Conference of Mathematicians (ICM 2014) in Seoul. He is associate
-editor of several international journals, including the Journal of
+Rémi Abgrall is a former student of Ecole Normale Supérieure de
+Saint Cloud.  After his PhD, he has been engineer at ONERA, then research
+scientist at INRIA.  Since January 2014, he is professor at the University of
+Zürich, Institute of Mathematics, after having been Professor in the University
+of Bordeaux (Institut Polytechnique de Bordeaux)  since 1996 and in secondment
+at INRIA from 2008 till the end of 2013. He has been awarded an Advanced
+Research Grant from the ERC in December 2008 and has been invited speaker at
+the International Conference of Mathematicians (ICM 2014) in Seoul. He is
+associate editor of several international journals, including the Journal of
 Computational Physics, Mathematics of Computation, Computers and Fluids, the
 Journal of Scientific Computing. He is also co-chief editor of the
 International Journal on Numerical Methods in Fluids. His research is about
