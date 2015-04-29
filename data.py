@@ -117,7 +117,9 @@ class committee:
         ('Syeda', 'Hussain', 'WLU, Waterloo'),
         ('Yuchen', 'Zhu', 'WLU, Waterloo'),
         ('Zaamilah', 'Balasubramaniam', 'WLU, Waterloo'),
-        ('Zahra', 'Fotovatnia', 'WLU, Waterloo')
+        ('Moriah', 'Magcalas', 'UW, Waterloo'),
+        ('Diogo', u'Poças', 'McMaster, Hamilton'),
+        ('Adrian', 'Lee', 'UofG, Guelph')
     )
 
 
