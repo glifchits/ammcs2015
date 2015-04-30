@@ -83,6 +83,7 @@ class committee:
         ('Herb', 'Kunze', 'Congress Program Chair, University of Guelph'),
         ('Zilin', 'Wang', 'Congress Treasurer, WLU, Waterloo'),
         ('Chester', 'Weatherby', 'Student Prize Committee Chair, WLU, Waterloo'),
+        ('Hasan', 'Shodiev', 'Local OC, Wilfrid Laurier University, Waterloo'),
         ('Ian', 'Frigaard', 'Global OC, University of British Columbia, Vancouver'),
         ('Raymond', 'Spiteri', 'Global OC, University of Saskatchewan, Saskatoon'),
     )
