@@ -120,7 +120,9 @@ class committee:
         ('Zaamilah', 'Balasubramaniam', 'WLU, Waterloo'),
         ('Moriah', 'Magcalas', 'UW, Waterloo'),
         ('Diogo', u'Poças', 'McMaster, Hamilton'),
-        ('Adrian', 'Lee', 'UofG, Guelph')
+        ('Adrian', 'Lee', 'UofG, Guelph'),
+        ('Bowen', 'Hu', 'WLU, Waterloo'),
+        ('Bingxia', 'Zong', 'WLU, Waterloo')
     )
 
 
