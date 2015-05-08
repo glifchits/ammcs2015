@@ -122,7 +122,9 @@ class committee:
         ('Diogo', u'Poças', 'McMaster, Hamilton'),
         ('Adrian', 'Lee', 'UofG, Guelph'),
         ('Bowen', 'Hu', 'WLU, Waterloo'),
-        ('Bingxia', 'Zong', 'WLU, Waterloo')
+        ('Bingxia', 'Zong', 'WLU, Waterloo'),
+        ('Zhijun', 'Mao', 'WLU, Waterloo'),
+        ('Moosa', 'Baque', 'WLU, Waterloo')
     )
 
 
