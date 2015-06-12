@@ -11,7 +11,7 @@ routes = (
     ('Kolmogorov-Wiener Prize', 'kolmogorov-wiener-prize'),
     ('Congress Program', 'congress-program'),
     ('Proceedings', 'proceedings'),
-    ('Conference Flyer', 'conference-flyer'),
+    ('Congress Flyer', 'congress-flyer'),
     ('Travel & Local Info', 'travel-local-info'),
     ('Venue & Accommodation', 'venue-accommodation'),
     ('Organization', 'organization'),
