@@ -24,7 +24,7 @@ gulp.task('styles', function() {
     .pipe(gulp.dest('build/static/css'));
 });
 
-gulp.task('freeze', function() {
+gulp.task('freeze', ['galleries'], function() {
   run('python ./freezer.py').exec();
 });
 
@@ -34,6 +34,10 @@ gulp.task('serve', function() {
     livereload: true,
     port: 5000
   });
+});
+
+gulp.task('galleries', function() {
+  run('./galleries.sh').exec();
 });
 
 gulp.task('default', ['styles', 'images', 'freeze', 'serve'], function() {
