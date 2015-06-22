@@ -19,10 +19,33 @@ $link-color: darken(steelblue, 10%);
   }
 }
 
+ol.ordinal {
+  list-style: none;
+  text-indent: -30px;
+  margin-left: 30px;
+  li {
+    &::before {
+      display: inline-block;
+      width: 30px;
+      color: #777;
+    }
+    &:nth-child(1)::before { content: '1st.'; }
+    &:nth-child(2)::before { content: '2nd.'; }
+    &:nth-child(3)::before { content: '3rd.'; }
+    &:nth-child(4)::before { content: '4th.'; }
+  }
+}
+
 body {
   font-family: 'Lato', sans-serif;
   h1 {
     font-weight: bold;
+  }
+}
+
+.content.awards {
+  h2 {
+    padding-top: 15px;
   }
 }
 
