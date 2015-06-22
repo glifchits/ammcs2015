@@ -23,7 +23,7 @@ destination = '../../build/ammcspics'
 
 # Theme :
 # - colorbox (default), galleria, or the path to a custom theme directory
-theme = 'galleria'
+theme = 'sigaltheme'
 
 # Author. Used in the footer of the pages and in the author meta tag.
 # author = ''

@@ -11,8 +11,8 @@ def routing():
         yield {"route": route}
 
 if __name__ == "__main__":
-    if os.path.exists('build'):
-        shutil.rmtree('build')
+    #if os.path.exists('build'):
+    #    shutil.rmtree('build')
     try:
         freezer.freeze()
         print "static pages compiled to /build"
